@@ -28,11 +28,13 @@ bool isValid(int thisTime, int lastTime) {
   if (min < thisTime && thisTime < max) {
     return true;
   }
+  Serial.println("The expTurnTime is not valid compared to lastTurnTime, but we'll ignore it.")
   //return false;
   return true;
 }
 
 int velocityModeOrWait() {
+  Serial.println("Entering velocityModeOrWait.")
   int accurateValues = 0;
   struct rotationAndHallMeasure measure;
   do {
@@ -42,15 +44,17 @@ int velocityModeOrWait() {
       expTurnTime = measure.rotation.time;
       lastTurnTime = expTurnTime;
       accurateValues++;
-
+      Serial.println("First measurement, no comparison.")
     } else {
       //update last and expected turn time and decide if they are valid
       lastTurnTime = expTurnTime;
       expTurnTime = measure.rotation.time;
       if (isValid(expTurnTime, lastTurnTime)) {
         accurateValues++;
+        Serial.println("Second measurement is valid.")
       } else {
         accurateValues = 1;
+        Serial.println("Second measurement is not valid.")
       }
       //accurateValues = (isValid(expTurnTime, lastTurnTime)) ? (accurateValues++) : (1);
     }
@@ -91,6 +95,7 @@ void waitButListenToHallSensor(int waitUntil) {
   }
   if (timestamp > -1) {
     lastHallFlip = timestamp;
+    expHallFlip = lastHallFlip + expTurnTime;
   }
   return;
 }
@@ -109,14 +114,16 @@ bool validRotationMeasureBefore(int deadline) {
      value.
 
   */
-
+  Serial.print("Entering validRotationMeasureBefore ");
+  Serial.print(deadline);
   if (deadline - millis() < expTurnTime / 2) {
     Serial.println("The deadline is unrealistic. Measurement aborts and will not be valid.");
     return false;
   }
   /* @Jakob, kann ich globale Variablen wie hallState auch ohne sie an die Fkt zu übergeben in
     der kugelfall.h nutzen? Dann müsste ich das ganze updaten namlich nicht hier unten machen,
-    sondern könnte das die Fkt whilePhotoListenToHallSensor übernehmen lassen.
+    sondern könnte das die Fkt whilePhotoListenToHallSensor übernehmen lassen. Geht nicht,
+    eigener Namespace.
   */
   //measure rotation and hall sensor
   struct rotationAndHallMeasure m = measureRotationAndHallUntil(2, hallState, deadline);
@@ -139,6 +146,7 @@ bool validRotationMeasureBefore(int deadline) {
   while (millis() < deadline) {
     // chill
   }
+  Serial.println("Measurement was valid.");
   return true; //global variables are up to date and valid
 }
 
@@ -146,19 +154,29 @@ void loop() {
   //Make sure the velocity is stable. Then compute
   //velo (velocity Mode), lastTurnTime, expTurnTime, hallState, lastHallFlip and expHallFlip.
   int velo = velocityModeOrWait();
+  Serial.print("Velocity mode is: ");
+  Serial.println(velo);
 
   if (isTriggered()) {
-    //lastHallFlip = awaitHallSensorPosition(); //TODO might not be necessary
+    Serial.println("Trigger detected.");
     bool patternDone = false;
-
-    awaitHallSensorPosition();
+    
+    lastHallFlip = awaitHallSensorPosition();
+    expHallFlip = lastHallFlip + expTurnTime;
+    Serial.print("Got hall sensor 1-0 endge at: ");
+    Serial.println(millis());
+    
     for (int turn = 0; turn < 9 && patternDone == false; turn++)  {
       // damn amount of prints:
+      Serial.print("velo Nr: ");
+      Serial.println(velo);
+      Serial.print("turn Nr: ");
+      Serial.println(turn);
       Serial.print("hallState: ");
       Serial.println(hallState);
       Serial.print("lastHallFlip: ");
       Serial.println(lastHallFlip);
-      Serial.print("expHallFlip: ");
+      Serial.print("expHallFlip: "); // sometimes not up to date
       Serial.println(expHallFlip);
       Serial.print("lastTurnTime: ");
       Serial.println(lastTurnTime);
@@ -167,22 +185,23 @@ void loop() {
 
       switch (throwMarble[velo][turn]) {
         case 1: {
+            Serial.println("Release the kraken... marble!");
             //release the marble
-            expHallFlip = lastHallFlip + expTurnTime;
+            //expHallFlip = lastHallFlip + expTurnTime;
             int t = expHallFlip - fallTime;
             t = (t < millis()) ? (t + expTurnTime) : (t);
             waitButListenToHallSensor(t);
             openMechanism(servo);
             if (!validRotationMeasureBefore(millis() + expTurnTime / 2)) {
-              Serial.println("velocityModeOrWait case 1");
+              Serial.println("no valid Measurement in case 1 -> velocityModeOrWait");
               int newVelo = velocityModeOrWait(); //wait until measurements are stable again
               if (newVelo != velo) {
-                Serial.println("Done.");
+                Serial.println("Abort pattern because of different velocity mode.");
                 patternDone = true;
                 velo = newVelo;
               }
             } else {
-              Serial.println("Else case 1");
+              Serial.println("Valid rotation measure and update before deadline in case 1");
             }
             closeMechanism(servo);
             break;
@@ -193,14 +212,13 @@ void loop() {
               Serial.println("velocityModeOrWait case 0");
               int newVelo = velocityModeOrWait(); //wait until measurements are stable again
               if (newVelo != velo) {
-                Serial.print("Done.");
+                Serial.print("Abort pattern because of different velocity mode.");
                 patternDone = true;
                 velo = newVelo;
               }
             } else {
-              Serial.println("Else case 0");
+              Serial.println("Valid rotation measure and update before deadline in case 0");
             }
-            lastHallFlip = awaitHallSensorPosition();
             break;
           }
 
