@@ -1,0 +1,8 @@
+Stellzeit des Servos wurde experimentell bestimmt: t = t_fall + t_stell
+t_fall = 0,378 s (berechnet)
+t_fall+t_stell ~ 0,5 s (noch nicht supergenau)
+
+selbst wenn das Loch still ist, fallen die Kugeln manchmal nicht durch, sondern prallen am äußeren Rand des Lochs ab
+Bei absolutem Stillstand der Scheibe verfehlen i.d.R. zwischen 1/3 und 1/2 der abgeworfenen Kugeln das Loch
+
+Gewählte Drehrichtung: entgegen dem Uhrzeigersinn

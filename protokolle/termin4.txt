@@ -1,0 +1,188 @@
+hallState -1
+lastHallFlip -1
+expHallFlip 719
+lastTurnTime 720
+expTurnTIme 720
+Else case 1
+hallState -1
+lastHallFlip -1
+expHallFlip 713
+lastTurnTime 720
+expTurnTIme 714
+Else case 0
+hallState -1
+lastHallFlip 2309
+expHallFlip 725
+lastTurnTime 714
+expTurnTIme 726
+Else case 1
+hallState -1
+lastHallFlip 2309
+expHallFlip 3032
+lastTurnTime 726
+expTurnTIme 723
+Else case 0
+hallState -1
+lastHallFlip 3761
+expHallFlip 3035
+lastTurnTime 723
+expTurnTIme 726
+Else case 1
+hallState -1
+lastHallFlip 3761
+expHallFlip 4490
+lastTurnTime 726
+expTurnTIme 729
+Done.
+hallState -1
+lastHallFlip -1
+expHallFlip 740
+lastTurnTime 741
+expTurnTIme 741
+Else case 1
+hallState -1
+lastHallFlip -1
+expHallFlip 740
+lastTurnTime 741
+expTurnTIme 741
+Else case 0
+hallState 1
+lastHallFlip 9666
+expHallFlip 746
+lastTurnTime 741
+expTurnTIme 747
+Else case 1
+hallState 1
+lastHallFlip 9666
+expHallFlip 10413
+lastTurnTime 747
+expTurnTIme 747
+Else case 0
+hallState 1
+lastHallFlip 11164
+expHallFlip 10419
+lastTurnTime 747
+expTurnTIme 753
+Else case 1
+hallState 1
+lastHallFlip 11164
+expHallFlip 11914
+lastTurnTime 753
+expTurnTIme 750
+Done.
+hallState -1
+lastHallFlip -1
+expHallFlip 764
+lastTurnTime 765
+expTurnTIme 765
+Else case 1
+hallState -1
+lastHallFlip -1
+expHallFlip 761
+lastTurnTime 765
+expTurnTIme 762
+Else case 0
+hallState 1
+lastHallFlip 17242
+expHallFlip 767
+lastTurnTime 762
+expTurnTIme 768
+Else case 1
+hallState 1
+lastHallFlip 17242
+expHallFlip 18007
+lastTurnTime 768
+expTurnTIme 765
+Else case 0
+hallState 1
+lastHallFlip 18783
+expHallFlip 18013
+lastTurnTime 765
+expTurnTIme 771
+Else case 1
+hallState 1
+lastHallFlip 18783
+expHallFlip 19554
+lastTurnTime 771
+expTurnTIme 771
+Done.
+hallState -1
+lastHallFlip -1
+expHallFlip 776
+lastTurnTime 777
+expTurnTIme 777
+Else case 1
+hallState -1
+lastHallFlip -1
+expHallFlip 776
+lastTurnTime 777
+expTurnTIme 777
+Else case 0
+hallState 1
+lastHallFlip 23454
+expHallFlip 782
+lastTurnTime 777
+expTurnTIme 783
+Else case 1
+hallState 1
+lastHallFlip 23454
+expHallFlip 24237
+lastTurnTime 783
+expTurnTIme 783
+Deadline for measurements is over. Measurement is not valid.
+Else case 0
+hallState 1
+lastHallFlip 25028
+expHallFlip 0
+lastTurnTime 783
+expTurnTIme 0
+Deadline for measurements is over. Measurement is not valid.
+Else case 1
+hallState 1
+lastHallFlip 0
+expHallFlip 0
+lastTurnTime 0
+expTurnTIme 0
+Done.
+hallState -1
+lastHallFlip -1
+expHallFlip 800
+lastTurnTime 801
+expTurnTIme 801
+Else case 1
+hallState -1
+lastHallFlip -1
+expHallFlip 797
+lastTurnTime 801
+expTurnTIme 798
+Else case 0
+hallState 1
+lastHallFlip 29806
+expHallFlip 803
+lastTurnTime 798
+expTurnTIme 804
+Else case 1
+hallState 1
+lastHallFlip 29806
+expHallFlip 30610
+lastTurnTime 804
+expTurnTIme 804
+Else case 0
+hallState 1
+lastHallFlip 31418
+expHallFlip 30607
+lastTurnTime 804
+expTurnTIme 801
+Else case 1
+hallState 1
+lastHallFlip 31418
+expHallFlip 32228
+lastTurnTime 801
+expTurnTIme 810
+Done.
+hallState -1
+lastHallFlip -1
+expHallFlip 812
+lastTurnTime 813
+expTurnTIme 813
+

@@ -1,0 +1,42 @@
+Photosensor reagiert auf Muster, welches auf der Unterseite der Drehscheibe angebracht ist. Eine Umdrehung stellt sich aus je 6 schwarzen und weißen Feldern zusammen. 
+
+Die Hallsonde gibt eine 1-0-Flanke aus, wenn sich das Loch in der Drehscheibe über der Senke befindet.
+
+LED 1 gelb
+LED 2 grün
+
+Servomotor
+Untere Zunge blockiert bei 35°, obere Zunge blockiert bei 50°
+Ansteuerung über die Servo-Library von Arduino.
+
+	#include <Servo.h>
+
+	int ServoPin = 9;
+
+	int pos;
+
+	Servo myservo;
+
+	void setup(){
+	    myservo.attach(ServoPin);
+	    
+	    pos = 35;
+	}
+
+	void loop(){
+	    myservo.write(pos);
+	    
+	    delay(500);
+	    
+	    myservo.write(pos+15);
+	    
+	    delay(500);   
+	}
+
+Dreiwegeschalter gibt in unterer Stellung ("Controller") eine 1 aus, in der oberen Stellung ("Direct") und in der Zwischenstellung eine 0.
+
+
+Drehgeschwindigkeit
+Schnell: schneller als 1 s/U
+Mittel: dazwischen
+Langsam: langsamer als 3 s/U
