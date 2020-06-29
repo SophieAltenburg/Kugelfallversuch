@@ -24,7 +24,7 @@ void setup() {
 
 bool isValid(int thisTime, int lastTime) {
   int min = lastTime * 0.9;
-  int max = lastTime * 1;
+  int max = lastTime * 1.1;
   if (min < thisTime && thisTime < max) {
     return true;
   }
