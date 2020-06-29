@@ -1,0 +1,5 @@
+Höhe des Aufbaus: 72 cm von Abwurfmechanismus bis Senke
+
+Fallzeit experimentell bestimmt auf 460 ms.
+
+Es wird immer eine Umdrehung zu viel ausgelassen.
