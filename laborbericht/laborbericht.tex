@@ -166,10 +166,10 @@ Diese Funktion sorgt außerdem dafür, die LEDs entsprechend der gemessenen Dreh
 function measureRotation() => integer, integer
 
 	# sicherstellen, dass Messung nicht mitten auf Feld beginnt
-	while PhotoSensorPin = 1 loop
+	while read(PhotoSensorPin) = 1 loop
 		idle
 	end while
-	while PhotoSensorPin = 0 loop
+	while read(PhotoSensorPin) = 0 loop
 		idle
 	end while
 
@@ -177,10 +177,10 @@ function measureRotation() => integer, integer
 	tBeforeFirstCyc := millis()
 
 	for i from 0 to 2 loop
-		while PhotoSensorPin = 1 loop
+		while read(PhotoSensorPin) = 1 loop
 			idle
 		end while
-		while PhotoSensorPin = 0 loop
+		while read(PhotoSensorPin) = 0 loop
 			idle
 		end while
 		
@@ -216,12 +216,12 @@ Die Funktion \texttt{awaitHallSensorPosition()} wartet auf die nächste 1-0-Flan
 function awaitHallSensorPosition()
 
 	# Anfang eines High-Pegels erwarten
-	while HallSensorPin = 0 loop
+	while read(HallSensorPin) = 0 loop
 		idle
 	end while
 	
 	# Ende des High-Pegels erwarten
-	while HallSensorPin = 1 loop
+	while read(HallSensorPin) = 1 loop
 		idle
 	end while
 	
@@ -236,6 +236,46 @@ end function
 \end{figure}
 
 \subsection{Fehlerfindung und -behebung}
+\subsubsection{Auslassen einer Umdrehung nach dem Abwurf einer Kugel}
+\paragraph{Symptom}
+Nachdem sichergestellt werden konnte, dass die Kugeln zum richtigen Zeitpunkt abgeworfen werden können, zeigte sich jedoch auf, dass nach dem Abwurf einer Kugel immer eine Umdrehung der Scheibe zu viel stattfand. Beispielsweise war das spezifikationsgemäße Muster für langsame Drehgeschwindigkeiten, jeweils eine Kugel in drei unmittelbar aufeinander folgende Löcher zu werfen. Tatsächlich wurde jedoch dreimal in Folge ein Loch getroffen und ein Loch freigelassen.
+
+\paragraph{Ursache}
+Der Grund für dieses Verhalten ist auf einen Fehler im Entwurf zurückzuführen. Nach dem Abwerfen einer Kugel wird für jede Umdrehung die Position der Hallsonde erwartet, anschließend wird ein Delay zum Abwerfen der Kugel bestimmt. Dies hatte das beobachtete Verhalten zur Folge, da zur Realisierung eines \glqq negativen Delays\grqq{} zwischen Lesen der Hallsonde und Abwurf der Kugel immer durch Abwurf der Kugel in der nächsten Umdrehung (da die Umdrehung natürlich periodisch ist) geschah. 
+
+\paragraph{Behebung}
+Dieses Problem kann behoben werden, wenn die vorgefertigte \texttt{delay}-Funktion nicht mehr verwendet wird. Stattdessen muss bei jedem Delay gleichzeitig der Wert der Hallsonde bestimmt werden, um so den Zeitpunkt der letzten 1-0-Flanke der Hallsonde aufzunehmen und das Delay zum Abwerfen der Kugel in der nächsten Umdrehung entsprechend damit zu verrechnen. Der Pseudocode für die neue Delay-Funktion ist in Abbildung \ref{fig:pseudo-delay} gezeigt.
+
+Die Funktion realisiert ein Delay, mit dem wichtigen Unterschied, dass sie außerdem den letzten Zeitpunkt der 1-0-Flanke der Hallsonde zurückgibt. Wenn auf dem Pin der Hallsonde während des Delays keine 1-0-Flanke gelesen wird, wird als Zeitpunkt der Wert -1 zurückgegeben; entsprechend müsste dann in dem Algorithmus erneut auf die Hallsonde gewartet werden.
+
+\begin{figure}
+\lstset{basicstyle=\small\ttfamily,tabsize=3}
+{\singlespacing
+\begin{lstlisting}[frame=single]
+function waitButListenToHallSensor(integer waitUntil) => integer
+	
+	initialTime := millis()
+	timestamp := -1
+	hallState := read(HallSensorPin)
+	
+	while millis() < waitUntil loop
+		if read(HallSensorPin) = 0 and hallState != 0 then
+			timestamp := millis()
+			hallState := 0
+		else if read(HallSensorPin) = 1 and hallState != 1 then
+			hallState := 1
+		end if
+	end while
+	
+	return timestamp
+	
+end function
+\end{lstlisting}
+}
+\caption{Pseudocode für die neue Delay-Funktion mit gleichzeitiger Aufnahme der Werte der Hallsonde.}
+\label{fig:pseudo-delay}
+\end{figure}
+
 
 \subsection{Ergebnisanalyse}
 
