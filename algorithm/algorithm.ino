@@ -190,6 +190,8 @@ void loop() {
             //expHallFlip = lastHallFlip + expTurnTime;
             int t = expHallFlip - fallTime;
             t = (t < millis()) ? (t + expTurnTime) : (t);
+            Serial.print("Waiting for ");
+            Serial.println(t);          
             waitButListenToHallSensor(t);
             openMechanism(servo);
             if (!validRotationMeasureBefore(millis() + expTurnTime / 2)) {

@@ -1,0 +1,491 @@
+ity mode is: 0
+Entering velocityModeOrWait.
+FirEntering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 0
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 0
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 0
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 0
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 0
+Trigger detected.
+Got hall sensor 1-0 endge at: 1880
+velo Nr: 0
+turn Nr: 0
+hallState: -1
+lastHallFlip: 1880
+expHallFlip: 2579
+lastTurnTime: 699
+expTurnTime: 699
+Release the kraken... marble!
+Waiting for 2117
+Entering validRotationMeasureBefore 2466Measurement was valid.
+Valid rotation measure and update before deadline in case 1
+velo Nr: 0
+turn Nr: 1
+hallState: -1
+lastHallFlip: 1880
+expHallFlip: 2579
+lastTurnTime: 699
+expTurnTime: 699
+Entering validRotationMeasureBefore 2956The deadline is unrealistic. Measurement aborts and will not be valid.
+velocityModeOrWait case 0
+Entering velocityModeOrWait.
+First measurement, no comparison.
+velo Nr: 0
+turn Nr: 2
+hallState: -1
+lastHallFlip: -1
+expHallFlip: 701
+lastTurnTime: 702
+expTurnTime: 702
+Release the kraken... marble!
+Waiting for 941
+Entering validRotationMeasureBefore 3504The deadline is unrealistic. Measurement aborts and will not be valid.
+no valid Measurement in case 1 -> velocityModeOrWait
+Entering velocityModeOrWait.
+First measurement, no comparison.
+velo Nr: 0
+turn Nr: 3
+hallState: 0
+lastHallFlip: 3553
+expHallFlip: 4258
+lastTurnTime: 705
+expTurnTime: 705
+Entering validRotationMeasureBefore 4049The deadline is unrealistic. Measurement aborts and will not be valid.
+velocityModeOrWait case 0
+Entering velocityModeOrWait.
+First measurement, no comparison.
+velo Nr: 0
+turn Nr: 4
+hallState: -1
+lastHallFlip: -1
+expHallFlip: 713
+lastTurnTime: 714
+expTurnTime: 714
+Release the kraken... marble!
+Waiting for 965
+Entering validRotationMeasureBefore 4695The deadline is unrealistic. Measurement aborts and will not be valid.
+no valid Measurement in case 1 -> velocityModeOrWait
+Entering velocityModeOrWait.
+First measurement, no comparison.
+velo Nr: 0
+turn Nr: 5
+hallState: -1
+lastHallFlip: -1
+expHallFlip: 719
+lastTurnTime: 720
+expTurnTime: 720
+Done.
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 0
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 0
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 0
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 0
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 0
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 0
+Trigger detected.
+Got hall sensor 1-0 endge at: 7596
+velo Nr: 0
+turn Nr: 0
+hallState: -1
+lastHallFlip: 7595
+expHallFlip: 8318
+lastTurnTime: 723
+expTurnTime: 723
+Release the kraken... marble!
+Waiting for 7856
+Entering validRotationMeasureBefore 8217Measurement was valid.
+Valid rotation measure and update before deadline in case 1
+velo Nr: 0
+turn Nr: 1
+hallState: -1
+lastHallFlip: 7595
+expHallFlip: 8321
+lastTurnTime: 723
+expTurnTime: 726
+Entering validRotationMeasureBefore 8720The deadline is unrealistic. Measurement aborts and will not be valid.
+velocityModeOrWait case 0
+Entering velocityModeOrWait.
+First measurement, no comparison.
+velo Nr: 0
+turn Nr: 2
+hallState: -1
+lastHallFlip: -1
+expHallFlip: 731
+lastTurnTime: 732
+expTurnTime: 732
+Release the kraken... marble!
+Waiting for 1001
+Entering validRotationMeasureBefore 9397The deadline is unrealistic. Measurement aborts and will not be valid.
+no valid Measurement in case 1 -> velocityModeOrWait
+Entering velocityModeOrWait.
+First measurement, no comparison.
+velo Nr: 0
+turn Nr: 3
+hallState: -1
+lastHallFlip: -1
+expHallFlip: 728
+lastTurnTime: 729
+expTurnTime: 729
+Entering validRotationMeasureBefore 9955The deadline is unrealistic. Measurement aborts and will not be valid.
+velocityModeOrWait case 0
+Entering velocityModeOrWait.
+First measurement, no comparison.
+velo Nr: 0
+turn Nr: 4
+hallState: -1
+lastHallFlip: -1
+expHallFlip: 737
+lastTurnTime: 738
+expTurnTime: 738
+Release the kraken... marble!
+Waiting for 1013
+Entering validRotationMeasureBefore 10628The deadline is unrealistic. Measurement aborts and will not be valid.
+no valid Measurement in case 1 -> velocityModeOrWait
+Entering velocityModeOrWait.
+First measurement, no comparison.
+velo Nr: 0
+turn Nr: 5
+hallState: -1
+lastHallFlip: -1
+expHallFlip: 743
+lastTurnTime: 744
+expTurnTime: 744
+Done.
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 0
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 0
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 0
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 0
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 0
+Trigger detected.
+Got hall sensor 1-0 endge at: 12778
+velo Nr: 0
+turn Nr: 0
+hallState: -1
+lastHallFlip: 12773
+expHallFlip: 13529
+lastTurnTime: 756
+expTurnTime: 756
+Release the kraken... marble!
+Waiting for 13067
+Entering validRotationMeasureBefore 13445Measurement was valid.
+Valid rotation measure and update before deadline in case 1
+velo Nr: 0
+turn Nr: 1
+hallState: -1
+lastHallFlip: 12773
+expHallFlip: 13526
+lastTurnTime: 756
+expTurnTime: 753
+Entering validRotationMeasureBefore 13963The deadline is unrealistic. Measurement aborts and will not be valid.
+velocityModeOrWait case 0
+Entering velocityModeOrWait.
+First measurement, no comparison.
+velo Nr: 0
+turn Nr: 2
+hallState: -1
+lastHallFlip: -1
+expHallFlip: 752
+lastTurnTime: 753
+expTurnTime: 753
+Release the kraken... marble!
+Waiting for 1043
+Entering validRotationMeasureBefore 14629The deadline is unrealistic. Measurement aborts and will not be valid.
+no valid Measurement in case 1 -> velocityModeOrWait
+Entering velocityModeOrWait.
+First measurement, no comparison.
+velo Nr: 0
+turn Nr: 3
+hallState: -1
+lastHallFlip: -1
+expHallFlip: 752
+lastTurnTime: 753
+expTurnTime: 753
+Entering validRotationMeasureBefore 15207The deadline is unrealistic. Measurement aborts and will not be valid.
+velocityModeOrWait case 0
+Entering velocityModeOrWait.
+First measurement, no comparison.
+velo Nr: 0
+turn Nr: 4
+hallState: -1
+lastHallFlip: -1
+expHallFlip: 755
+lastTurnTime: 756
+expTurnTime: 756
+Release the kraken... marble!
+Waiting for 1049
+Entering validRotationMeasureBefore 15893The deadline is unrealistic. Measurement aborts and will not be valid.
+no valid Measurement in case 1 -> velocityModeOrWait
+Entering velocityModeOrWait.
+First measurement, no comparison.
+velo Nr: 0
+turn Nr: 5
+hallState: -1
+lastHallFlip: -1
+expHallFlip: 761
+lastTurnTime: 762
+expTurnTime: 762
+Done.
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 0
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 0
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 0
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 0
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 0
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 0
+Trigger detected.
+Got hall sensor 1-0 endge at: 18867
+velo Nr: 0
+turn Nr: 0
+hallState: -1
+lastHallFlip: 18867
+expHallFlip: 19638
+lastTurnTime: 771
+expTurnTime: 771
+Release the kraken... marble!
+Waiting for 19176
+Entering validRotationMeasureBefore 19561Measurement was valid.
+Valid rotation measure and update before deadline in case 1
+velo Nr: 0
+turn Nr: 1
+hallState: -1
+lastHallFlip: 18867
+expHallFlip: 19638
+lastTurnTime: 771
+expTurnTime: 771
+Entering validRotationMeasureBefore 20088The deadline is unrealistic. Measurement aborts and will not be valid.
+velocityModeOrWait case 0
+Entering velocityModeOrWait.
+First measurement, no comparison.
+velo Nr: 0
+turn Nr: 2
+hallState: -1
+lastHallFlip: -1
+expHallFlip: 773
+lastTurnTime: 774
+expTurnTime: 774
+Release the kraken... marble!
+Waiting for 1085
+Entering validRotationMeasureBefore 20772The deadline is unrealistic. Measurement aborts and will not be valid.
+no valid Measurement in case 1 -> velocityModeOrWait
+Entering velocityModeOrWait.
+First measurement, no comparison.
+velo Nr: 0
+turn Nr: 3
+hallState: -1
+lastHallFlip: -1
+expHallFlip: 773
+lastTurnTime: 774
+expTurnTime: 774
+Entering validRotationMeasureBefore 21369The deadline is unrealistic. Measurement aborts and will not be valid.
+velocityModeOrWait case 0
+Entering velocityModeOrWait.
+First measurement, no comparison.
+velo Nr: 0
+turn Nr: 4
+hallState: -1
+lastHallFlip: -1
+expHallFlip: 782
+lastTurnTime: 783
+expTurnTime: 783
+Release the kraken... marble!
+Waiting for 1103
+Entering validRotationMeasureBefore 22077The deadline is unrealistic. Measurement aborts and will not be valid.
+no valid Measurement in case 1 -> velocityModeOrWait
+Entering velocityModeOrWait.
+First measurement, no comparison.
+velo Nr: 0
+turn Nr: 5
+hallState: -1
+lastHallFlip: -1
+expHallFlip: 782
+lastTurnTime: 783
+expTurnTime: 783
+Done.
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 0
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 0
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 0
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 0
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 0
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 0
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 0
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 0
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 0
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 0
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 0
+Trigger detected.
+Got hall sensor 1-0 endge at: 26736
+velo Nr: 0
+turn Nr: 0
+hallState: -1
+lastHallFlip: 26735
+expHallFlip: 27530
+lastTurnTime: 795
+expTurnTime: 795
+Release the kraken... marble!
+Waiting for 27068
+Entering validRotationMeasureBefore 27465Measurement was valid.
+Valid rotation measure and update before deadline in case 1
+velo Nr: 0
+turn Nr: 1
+hallState: -1
+lastHallFlip: 26735
+expHallFlip: 27533
+lastTurnTime: 795
+expTurnTime: 798
+Entering validRotationMeasureBefore 28007The deadline is unrealistic. Measurement aborts and will not be valid.
+velocityModeOrWait case 0
+Entering velocityModeOrWait.
+First measurement, no comparison.
+velo Nr: 0
+turn Nr: 2
+hallState: -1
+lastHallFlip: -1
+expHallFlip: 803
+lastTurnTime: 804
+expTurnTime: 804
+Release the kraken... marble!
+Waiting for 1145
+Entering validRotationMeasureBefore 28706The deadline is unrealistic. Measurement aborts and will not be valid.
+no valid Measurement in case 1 -> velocityModeOrWait
+Entering velocityModeOrWait.
+First measurement, no comparison.
+velo Nr: 0
+turn Nr: 3
+hallState: -1
+lastHallFlip: -1
+expHallFlip: 803
+lastTurnTime: 804
+expTurnTime: 804
+Entering validRotationMeasureBefore 29326The deadline is unrealistic. Measurement aborts and will not be valid.
+velocityModeOrWait case 0
+Entering velocityModeOrWait.
+First measurement, no comparison.
+velo Nr: 0
+turn Nr: 4
+hallState: -1
+lastHallFlip: -1
+expHallFlip: 809
+lastTurnTime: 810
+expTurnTime: 810
+Release the kraken... marble!
+Waiting for 1157
+Entering validRotationMeasureBefore 29921The deadline is unrealistic. Measurement aborts and will not be valid.
+no valid Measurement in case 1 -> velocityModeOrWait
+Entering velocityModeOrWait.
+First measurement, no comparison.
+velo Nr: 0
+turn Nr: 5
+hallState: -1
+lastHallFlip: -1
+expHallFlip: 818
+lastTurnTime: 819
+expTurnTime: 819
+Done.
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 0
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 0
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 0
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 0
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 0
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 0
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 0
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 0
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 0
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 0
+Trigger detected.
+Got hall sensor 1-0 endge at: 34917
+velo Nr: 0
+turn Nr: 0
+hallState: -1
+lastHallFlip: -30619
+expHallFlip: -29782
+lastTurnTime: 837
+expTurnTime: 837
+Release the kraken... marble!
+Waiting for -30244
+
+
+--> Das Programm stürzt ab, sobald irgendwo eine negative Wartezeit erzeugt werden soll!
+
