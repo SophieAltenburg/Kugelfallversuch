@@ -28,13 +28,13 @@ bool isValid(int thisTime, int lastTime) {
   if (min < thisTime && thisTime < max) {
     return true;
   }
-  Serial.println("The expTurnTime is not valid compared to lastTurnTime, but we'll ignore it.")
+  Serial.println("The expTurnTime is not valid compared to lastTurnTime, but we'll ignore it.");
   //return false;
   return true;
 }
 
 int velocityModeOrWait() {
-  Serial.println("Entering velocityModeOrWait.")
+  Serial.println("Entering velocityModeOrWait.");
   int accurateValues = 0;
   struct rotationAndHallMeasure measure;
   do {
@@ -44,17 +44,17 @@ int velocityModeOrWait() {
       expTurnTime = measure.rotation.time;
       lastTurnTime = expTurnTime;
       accurateValues++;
-      Serial.println("First measurement, no comparison.")
+      Serial.println("First measurement, no comparison.");
     } else {
       //update last and expected turn time and decide if they are valid
       lastTurnTime = expTurnTime;
       expTurnTime = measure.rotation.time;
       if (isValid(expTurnTime, lastTurnTime)) {
         accurateValues++;
-        Serial.println("Second measurement is valid.")
+        Serial.println("Second measurement is valid.");
       } else {
         accurateValues = 1;
-        Serial.println("Second measurement is not valid.")
+        Serial.println("Second measurement is not valid.");
       }
       //accurateValues = (isValid(expTurnTime, lastTurnTime)) ? (accurateValues++) : (1);
     }
