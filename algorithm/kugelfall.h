@@ -60,7 +60,7 @@ struct hallMeasure {
     */
 
     int state;
-    int time;
+    long time;
 };
 
 struct rotationAndHallMeasure {
@@ -103,7 +103,7 @@ void setupHardware(){
     pinMode(BlackboxLEDPin, OUTPUT);
 }
 
-struct hallMeasure whilePhotoListenToHallSensor(int color, int hallState, int deadline) {
+struct hallMeasure whilePhotoListenToHallSensor(int color, int hallState, long deadline) {
     /* Waits for the photo sensor and notes hall sensor changes.
     *  
     * Returns as soon as the photo sensor changes color. If the hall sensor should flip in
@@ -147,7 +147,7 @@ struct hallMeasure whilePhotoListenToHallSensor(int color, int hallState, int de
     return(hall);
 }
 
-struct rotationAndHallMeasure measureRotationAndHallUntil(int cycles, int hallState, int deadline){
+struct rotationAndHallMeasure measureRotationAndHallUntil(int cycles, int hallState, long deadline){
     /* Measure the rotation of the disc.
     *
     * Uses the photosensor to measure the time per rotation as well as the
@@ -216,11 +216,11 @@ struct rotationAndHallMeasure measureRotationAndHallUntil(int cycles, int hallSt
       return both;
     }
 
-    int timeAfterFirstCycle;
-    int timeBeforeLastCycle;
-    int timeAfterLastCycle;
+    long timeAfterFirstCycle;
+    long timeBeforeLastCycle;
+    long timeAfterLastCycle;
 
-    int timeBeforeFirstCycle = millis();
+    long timeBeforeFirstCycle = millis();
 
     for (int i=0; i<cycles; i++){
 
@@ -279,11 +279,11 @@ struct rotationAndHallMeasure measureRotationAndHall(int cycles, int hallState) 
     * Proxy function to make the deadline in measureRotationAndHall(cycles, hallState, deadline)
     * optional.
     */
-    int maximum_millis = 2147483647; 
+    long maximum_millis = 2147483647; 
     return measureRotationAndHallUntil(cycles, hallState, maximum_millis);
 }
 
-int awaitHallSensorPosition(){
+long awaitHallSensorPosition(){
     /* Await the position of the hole using the Hall sensor.
     *
     * This function awaits the next 1-0 edge of the Hall sensor, which is the 

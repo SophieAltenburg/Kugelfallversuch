@@ -1,12 +1,11 @@
 #include "kugelfall.h"
 #include <Servo.h>
 
-int pos;
 Servo servo;
 const int fallTime = 462;
 int hallState = -1; //will be 0 or 1 depending on last hallSesor measurement
-int lastHallFlip = -1; //timestamp of last hallSensor signal flip
-int expHallFlip = -1;
+long lastHallFlip = -1; //timestamp of last hallSensor signal flip
+long expHallFlip = -1;
 int lastTurnTime = -1;
 int expTurnTime = -1;
 const int throwMarble[3][9] = {
@@ -80,9 +79,9 @@ int velocityModeOrWait() {
   }
 }
 
-void waitButListenToHallSensor(int waitUntil) {
-  int initialTime = millis();
-  int timestamp = -1;
+void waitButListenToHallSensor(long waitUntil) {
+  long initialTime = millis();
+  long timestamp = -1;
   int hallState = digitalRead(HallSensorPin);
 
   while (millis() < waitUntil) {
@@ -100,7 +99,7 @@ void waitButListenToHallSensor(int waitUntil) {
   return;
 }
 
-bool validRotationMeasureBefore(int deadline) {
+bool validRotationMeasureBefore(long deadline) {
   /* Performs a rotation and hall sensor measurement in 1/3 of the turn time of the
      plate, if the plate decelerates normally. If the plate is decelerated manually, the
      measurement will be marked as not valid by returning false. The function also waits until
@@ -188,7 +187,8 @@ void loop() {
             Serial.println("Release the kraken... marble!");
             //release the marble
             //expHallFlip = lastHallFlip + expTurnTime;
-            int t = expHallFlip - fallTime;
+            long t = expHallFlip - fallTime;
+            Serial.println(t);            
             t = (t < millis()) ? (t + expTurnTime) : (t);
             Serial.print("Waiting for ");
             Serial.println(t);          
