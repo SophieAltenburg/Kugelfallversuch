@@ -60,9 +60,14 @@ int velocityModeOrWait() {
   } while (accurateValues < 1);
 
   //5 values were accurate. The measurement is reliable. Compute other global variables:
-  hallState = measure.hall.state;
-  lastHallFlip = measure.hall.time;
-  expHallFlip = lastHallFlip + expTurnTime;
+  if (measure.hall.state >= 0) {
+    hallState = measure.hall.state;  
+  }
+  if (measure.hall.time > 0) {
+    lastHallFlip = measure.hall.time;
+    expHallFlip = lastHallFlip + expTurnTime;  
+  }
+  
 
   //decide velocity mode:
   if (expTurnTime <= 1000) {
@@ -115,10 +120,10 @@ bool validRotationMeasureBefore(long deadline) {
   */
   Serial.print("Entering validRotationMeasureBefore ");
   Serial.print(deadline);
-  if (deadline - millis() < expTurnTime / 2) {
+  /*if (deadline - millis() <= expTurnTime / 2) {
     Serial.println("The deadline is unrealistic. Measurement aborts and will not be valid.");
     return false;
-  }
+  }*/
   /* @Jakob, kann ich globale Variablen wie hallState auch ohne sie an die Fkt zu übergeben in
     der kugelfall.h nutzen? Dann müsste ich das ganze updaten namlich nicht hier unten machen,
     sondern könnte das die Fkt whilePhotoListenToHallSensor übernehmen lassen. Geht nicht,
@@ -137,9 +142,11 @@ bool validRotationMeasureBefore(long deadline) {
     Serial.println("Plate decelerated or accelerated too much.");
     return false;
   }
-  lastTurnTime = expTurnTime;
-  expTurnTime = m.rotation.time;
-  expHallFlip = lastHallFlip + expTurnTime;
+  if (m.rotation.time > 0) {
+    lastTurnTime = expTurnTime;
+    expTurnTime = m.rotation.time;
+    expHallFlip = lastHallFlip + expTurnTime;
+  }
 
   //wait until deadline
   while (millis() < deadline) {
@@ -220,7 +227,10 @@ void loop() {
               }
             } else {
               Serial.println("Valid rotation measure and update before deadline in case 0");
+              //TODO get new expHallFlip
             }
+            lastHallFlip = awaitHallSensorPosition();
+            expHallFlip = lastHallFlip + expTurnTime;
             break;
           }
 
