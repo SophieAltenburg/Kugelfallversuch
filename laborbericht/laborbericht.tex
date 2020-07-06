@@ -236,6 +236,7 @@ end function
 \end{figure}
 
 \subsection{Fehlerfindung und -behebung}
+
 \subsubsection{Auslassen einer Umdrehung nach dem Abwurf einer Kugel}
 \paragraph{Symptom}
 Nachdem sichergestellt werden konnte, dass die Kugeln zum richtigen Zeitpunkt abgeworfen werden können, zeigte sich jedoch auf, dass nach dem Abwurf einer Kugel immer eine Umdrehung der Scheibe zu viel stattfand. Beispielsweise war das spezifikationsgemäße Muster für langsame Drehgeschwindigkeiten, jeweils eine Kugel in drei unmittelbar aufeinander folgende Löcher zu werfen. Tatsächlich wurde jedoch dreimal in Folge ein Loch getroffen und ein Loch freigelassen.
@@ -276,6 +277,25 @@ end function
 \label{fig:pseudo-delay}
 \end{figure}
 
+\subsubsection{Falscher Abwurf der Kugeln bei niedriger Geschwindigkeit}
+\paragraph{Symptom}
+Während die Kugeln bei moderater und hoher Drehgeschwindigkeit die Löcher korrekt trafen, wurden die Kugeln bei niedriger Drehgeschwindigkeit in der zweiten und dritten Umdrehung verfrüht abgeworfen.
+
+\paragraph{Ursache}
+Die Ursache für dieses Verhalten liegt in der Abbremsung der Scheibe bei niedrigen Geschwindigkeiten. Aufgrund der Reibung in der Lagerung der Scheibe ist die Abbremsung bei niedrigen Geschwindigkeiten deutlich höher\footnote{Relativ zur Drehgeschwindigkeit} als bei höheren Geschwindigkeiten. Dies führte dazu, dass eine zu hohe Drehgeschwindigkeit geschätzt wurde, wodurch die Kugeln zu früh abgeworfen wurden.
+
+\paragraph{Behebung}
+TODO.
+
+\subsubsection{Absturz der Software nach kurzer Zeit}
+\paragraph{Symptom}
+Nachdem der Aufbau eine kurze Zeit lief, hing die Software sich zu (vermeintlich) willkürlichen Zeitpunkten auf und konnte erst nach erneutem Flashen der Software auf den ROM weiterarbeiten. Durch \texttt{println}-Debugging zeigte sich, dass dieses Verhalten genau dann auftrat, wenn ein negativer Integer-Wert als Delay erzeugt wurde.
+
+\paragraph{Ursache}
+Das Problem der Erzeugung negativer Werte für das Delay war \emph{nicht} auf eine fehlerhafte Berechnung im Algorithmus zurückzuführen. Vielmehr war es auf den begrenzten Wertebereich des \texttt{int}-Datentypes auf dem Arduino zurückzuführen -- im Gegensatz zu den meisten PC-Prozessoren sind diese bei dem ATmeta 328-Mikrocontroller lediglich 16 Bit groß\footnote{Vorzeichenbehaftet reicht der Werteumfang von -32.768 bis 32.767.}. Dies führte dazu, dass in Berechnungen, welche mit Absolutzeitpunkten arbeiten, nach 32~s ein Integer-Überlauf auftrat, wodurch ein negativer Delay-Wert entstand.
+
+\paragraph{Behebung}
+Das Problem konnte behoben werden, indem für alle Integer, welche für Berechnungen Absolutzeitpunkten (d.h. keine Zeitdifferenzen) verwendet werden, der 32 Bit breite \texttt{long}-Datentyp gewählt wurde.
 
 \subsection{Ergebnisanalyse}
 
