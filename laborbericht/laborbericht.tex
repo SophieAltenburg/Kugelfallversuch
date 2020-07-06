@@ -2,6 +2,10 @@
 %\addbibresource{references.bib}
 
 \newacronym{pwm}{PWM}{Pulsbreitemodulation}
+\newacronym{uart}{UART}{Universal Asynchronous Receiver-Transmitter}
+
+\newcommand{\todo}{\textbf{TODO}}
+%\newcommand{\todo}{\errmessage{Unresolved TODO}}
 
 \title{Laborbericht}
 
@@ -65,7 +69,7 @@ Diese Zeit würde jedoch nicht die nichtvernachlässigbare Stellzeit des Servoan
 \subsection{Kommunikation mit dem Nutzer}
 
 \subsubsection{Serielle Schnittstelle}
-Das Arduino-Board kommuniziert über eine serielle USB-UART-Schnittstelle mit dem PC. Dadurch können durch eine entsprechend konfigurierte Software auf dem PC Daten vom Arduino empfangen und zum Arduino gesendet werden.
+Das Arduino-Board kommuniziert über eine serielle USB-\gls{uart}-Schnittstelle mit dem PC. Dadurch können durch eine entsprechend konfigurierte Software auf dem PC Daten vom Arduino empfangen und zum Arduino gesendet werden.
 
 \subsubsection{Trigger}
 Mit der Blackbox ist über ein Kabel ein kleines Bediengerät verbunden, welches einen Knopf besitzt. Wenn der Knopf darauf gedrückt wird, liegt an dem entsprechenden Pin ein High-Pegel an; ansonsten ein Low-Pegel. Dieses Bediengerät kann sehr gut zum Start der Durchführung verwendet werden. 
@@ -81,7 +85,7 @@ LED 1 leuchtet gelb, LED 2 leuchtet grün. Bei einem angelegten High-Pegel leuch
 \subsection{Machbarkeitsanalyse}
 Ein Test mit Auslösung der Kugeln direkt über den Trigger zeigte, das selbst \emph{bei Stillstand der Scheibe} nicht alle Kugeln zuverlässig das Loch trafen. Selbst bei Stillstand der Scheibe verfehlten zwischen $\frac13$ und $\frac12$ der abgeworfenen Kugeln die Senke und prallten an dem äußeren Rand des Lochs in der Scheibe ab.
 
-Dieses Verhalten ist einzig und allein dem physikalischen Aufbau des Systems\footnote{Es wurde der Aufbau im Raum Z 2045 gewählt.} geschuldet. Die Software wird nicht in der Lage sein, dies zu korrigieren, wodurch bereits bei ersten, einfachen Tests des Aufbaus berechtigte Zweifel an der Machbarkeit aufkommen.
+Dieses Verhalten ist einzig und allein dem physikalischen Aufbau des Systems geschuldet. Die Software wird nicht in der Lage sein, die Unzulänglichkeiten des Aufbaus zu korrigieren, wodurch bereits bei ersten, einfachen Tests des Aufbaus berechtigte Zweifel an der Machbarkeit aufkommen.
 
 Der Versuchsaufbau besitzt folgende Probleme, welche Grund für dieses Verhalten sein können.
 \begin{itemize}
@@ -90,6 +94,7 @@ Der Versuchsaufbau besitzt folgende Probleme, welche Grund für dieses Verhalten
 	\item Das Loch in der Scheibe ist nicht perfekt konzentrisch.
 	\item Das Rohr in der Abwurfvorrichtung, durch welche die Kugeln fallen, besitzt ein Übermaß, sodass nicht gewährleistet werden kann, dass die Kugel mittig durch die Vorrichtung fällt.
 \end{itemize}
+Außerdem kann die Kugel durch den Auslösemechanismus einen leichten Drall erhalten. Dessen Einfluss ist jedoch vernachlässigbar -- damit dieser Effekt einen nennenswerten Einfluss bekommt, müsste der Servoantrieb deutlich schneller sein.
 
 \section{Design}
 \subsection{Wahl der Randbedingungen}
@@ -140,6 +145,7 @@ Um die Abbremsung der Scheibe zu bestimmen, müssen zwei schwarz-weiß-Zyklen ge
 Die Position des Lochs kann durch eine Warte-Funktion realisiert werden, welche die Ausführung des Programms so lange blockiert, bis an dem Digitalpin der Hallsonde die zuvor erläuterte 1-0-Flanke beginnt. Die Entscheidung, wann die Kugel auf Grundlage dessen abgeworfen werden soll, obliegt anschließend dem Anwendungslayer. 
 
 \subsection{Algorithmus zum Abwurf der Kugeln}
+\todo
 
 \section{Implementierung}
 
@@ -235,6 +241,9 @@ end function
 \label{fig:pseudo-loch}
 \end{figure}
 
+\subsubsection{Algorithmus zum Abwurf der Kugeln}
+\todo
+
 \subsection{Fehlerfindung und -behebung}
 
 \subsubsection{Auslassen einer Umdrehung nach dem Abwurf einer Kugel}
@@ -285,7 +294,7 @@ Während die Kugeln bei moderater und hoher Drehgeschwindigkeit die Löcher korr
 Die Ursache für dieses Verhalten liegt in der Abbremsung der Scheibe bei niedrigen Geschwindigkeiten. Aufgrund der Reibung in der Lagerung der Scheibe ist die Abbremsung bei niedrigen Geschwindigkeiten deutlich höher\footnote{Relativ zur Drehgeschwindigkeit} als bei höheren Geschwindigkeiten. Dies führte dazu, dass eine zu hohe Drehgeschwindigkeit geschätzt wurde, wodurch die Kugeln zu früh abgeworfen wurden.
 
 \paragraph{Behebung}
-TODO.
+\todo
 
 \subsubsection{Absturz der Software nach kurzer Zeit}
 \paragraph{Symptom}
@@ -298,6 +307,10 @@ Das Problem der Erzeugung negativer Werte für das Delay war \emph{nicht} auf ei
 Das Problem konnte behoben werden, indem für alle Integer, welche für Berechnungen Absolutzeitpunkten (d.h. keine Zeitdifferenzen) verwendet werden, der 32 Bit breite \texttt{long}-Datentyp gewählt wurde.
 
 \subsection{Ergebnisanalyse}
+\todo
+
+\subsubsection{Rückblickende Betrachtung}
+Leider konnte die im anfänglichen Entwurf erläuterte Trennung zwischen Hardwareanbindung und Aflgorithmus nicht so sauber wie gewünscht realisiert werden. Dies kann möglicherweise auf einen etwas zu idealisierten Entwurf zurückzuführen sein. Die Header-Datei konnte die Hardware also nicht auf das gewünschte Abstraktionsniveau gegenüber dem Algorithmus abstrahieren.
 
 \appendix
 %\addcontentsline{toc}{section}{Literatur}
