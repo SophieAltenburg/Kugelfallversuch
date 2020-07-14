@@ -1,0 +1,439 @@
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 2
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 2
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 1
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 1
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 1
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 1
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 1
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 1
+Trigger detected.
+Got hall sensor 1-0 endge at: 9295
+velo Nr: 1
+turn Nr: 0
+hallState: -1
+lastHallFlip: 9295
+expHallFlip: 10948
+lastTurnTime: 1653
+expTurnTime: 1653
+Release the kraken... marble!
+10486
+Waiting for 10486
+Entering validRotationMeasureBefore 11312Measurement was valid.
+Valid rotation measure and update before deadline in case 1
+velo Nr: 1
+turn Nr: 1
+hallState: -1
+lastHallFlip: 9295
+expHallFlip: 10987
+lastTurnTime: 1653
+expTurnTime: 1692
+Entering validRotationMeasureBefore 12301Measurement was valid.
+Valid rotation measure and update before deadline in case 0
+velo Nr: 1
+turn Nr: 2
+hallState: -1
+lastHallFlip: 12658
+expHallFlip: 14350
+lastTurnTime: 1692
+expTurnTime: 1692
+Release the kraken... marble!
+13888
+Waiting for 13888
+Entering validRotationMeasureBefore 14734Measurement was valid.
+Valid rotation measure and update before deadline in case 1
+velo Nr: 1
+turn Nr: 3
+hallState: -1
+lastHallFlip: 12658
+expHallFlip: 14389
+lastTurnTime: 1692
+expTurnTime: 1731
+Release the kraken... marble!
+13927
+Waiting for 15658
+Entering validRotationMeasureBefore 16524Measurement was valid.
+Valid rotation measure and update before deadline in case 1
+velo Nr: 1
+turn Nr: 4
+hallState: -1
+lastHallFlip: 12658
+expHallFlip: 14407
+lastTurnTime: 1731
+expTurnTime: 1749
+Entering validRotationMeasureBefore 17542Measurement was valid.
+Valid rotation measure and update before deadline in case 0
+velo Nr: 1
+turn Nr: 5
+hallState: -1
+lastHallFlip: 17841
+expHallFlip: 19587
+lastTurnTime: 1749
+expTurnTime: 1746
+Entering validRotationMeasureBefore 18769Measurement was valid.
+Valid rotation measure and update before deadline in case 0
+velo Nr: 1
+turn Nr: 6
+hallState: 0
+lastHallFlip: 19601
+expHallFlip: 21344
+lastTurnTime: 1746
+expTurnTime: 1743
+Release the kraken... marble!
+20882
+Waiting for 20882
+Entering validRotationMeasureBefore 21753Measurement was valid.
+Valid rotation measure and update before deadline in case 1
+velo Nr: 1
+turn Nr: 7
+hallState: 0
+lastHallFlip: 19601
+expHallFlip: 21398
+lastTurnTime: 1743
+expTurnTime: 1797
+Release the kraken... marble!
+20936
+Waiting for 22733
+Entering validRotationMeasureBefore 23631Measurement was valid.
+Valid rotation measure and update before deadline in case 1
+velo Nr: 1
+turn Nr: 8
+hallState: 0
+lastHallFlip: 19601
+expHallFlip: 21422
+lastTurnTime: 1797
+expTurnTime: 1821
+Release the kraken... marble!
+20960
+Waiting for 22781
+Entering validRotationMeasureBefore 24744Measurement was valid.
+Valid rotation measure and update before deadline in case 1
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 1
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 1
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 1
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 1
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 1
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 1
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 1
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 1
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 1
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 1
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 1
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 1
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 1
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 1
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 1
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 1
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 1
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 1
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 1
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 1
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 1
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 1
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 1
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 1
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 1
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 1
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 1
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 1
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 1
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 1
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 1
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 1
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 1
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 1
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 1
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 1
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 1
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 1
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 1
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 1
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 1
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 1
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 1
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 1
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 1
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 1
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 1
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 1
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 1
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 1
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 1
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 1
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 1
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 1
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 1
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 1
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 1
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 1
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 1
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 1
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 1
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 1
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 1
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 1
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 1
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 1
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 1
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 1
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 2
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 2
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 2
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 2
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 2
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 2
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 2
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 2
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 2
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 2
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 2
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 2
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 2
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 2
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 2
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 2
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 2
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 2
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 2
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 2
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 2
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 2
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 2
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 2
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 2
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 2
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 2
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 2
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 2
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 2
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 2
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 2
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 2
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 2
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 2
+Entering velocityModeOrWait.
+First measurement, no comparison.
+Velocity mode is: 2
+Entering velocityModeOrWait.
+

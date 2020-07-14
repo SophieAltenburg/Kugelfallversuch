@@ -9,8 +9,8 @@ long expHallFlip = -1;
 int lastTurnTime = -1;
 int expTurnTime = -1;
 const int throwMarble[3][9] = {
-  {1, 0, 1, 0, 1, -1, -1, -1, -1}, //fast velocity = 0
-  {1, 0, 1, 1, 0, 0, 1, 1, 1}, //medium velocity = 1
+  {1, 0, 1,  0,  1, -1, -1, -1, -1}, //fast velocity = 0
+  {1, 0, 1,  1,  0,  0,  1,  1,  1}, //medium velocity = 1
   {1, 1, 1, -1, -1, -1, -1, -1, -1} //slow velocity = 2
 };
 
