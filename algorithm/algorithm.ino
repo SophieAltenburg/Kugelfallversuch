@@ -196,7 +196,10 @@ void loop() {
             //expHallFlip = lastHallFlip + expTurnTime;
             long t = expHallFlip - fallTime;
             Serial.println(t);            
-            t = (t < millis()) ? (t + expTurnTime) : (t);
+            while (t < millis()){
+                t = t + expTurnTime;
+                //t = (t < millis()) ? (t + expTurnTime) : (t);
+            }
             Serial.print("Waiting for ");
             Serial.println(t);          
             waitButListenToHallSensor(t);
