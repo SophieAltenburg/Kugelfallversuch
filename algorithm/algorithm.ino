@@ -5,7 +5,8 @@ Servo servo;
 const int fallTime = 462;
 int hallState = -1; //will be 0 or 1 depending on last hallSesor measurement
 long lastHallFlip = -1; //timestamp of last hallSensor signal flip
-long expHallFlip = -1;
+long expHallFlip = -1; //expected next hallSensor flip
+long guessedLastHallFlip = -1; //if we missed the last hallSensor flip, we guess it
 int lastTurnTime = -1;
 int expTurnTime = -1;
 const int throwMarble[3][9] = {
@@ -124,11 +125,6 @@ bool validRotationMeasureBefore(long deadline) {
     Serial.println("The deadline is unrealistic. Measurement aborts and will not be valid.");
     return false;
   }*/
-  /* @Jakob, kann ich globale Variablen wie hallState auch ohne sie an die Fkt zu übergeben in
-    der kugelfall.h nutzen? Dann müsste ich das ganze updaten namlich nicht hier unten machen,
-    sondern könnte das die Fkt whilePhotoListenToHallSensor übernehmen lassen. Geht nicht,
-    eigener Namespace.
-  */
   //measure rotation and hall sensor
   struct rotationAndHallMeasure m = measureRotationAndHallUntil(2, hallState, deadline);
   if (m.hall.state == -2) {
@@ -200,6 +196,7 @@ void loop() {
             Serial.print("Waiting for ");
             Serial.println(t);          
             waitButListenToHallSensor(t);
+            //we never get the hall sensor between hallsensor and throw-time
             openMechanism(servo);
             if (!validRotationMeasureBefore(millis() + expTurnTime / 2)) {
               Serial.println("no valid Measurement in case 1 -> velocityModeOrWait");
