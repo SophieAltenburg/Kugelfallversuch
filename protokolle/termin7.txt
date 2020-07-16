@@ -1,0 +1,2288 @@
+17:26:35.132 -> Time: 801
+17:26:35.132 -> Deceleration: -6
+17:26:35.179 -> 0
+17:26:35.935 -> Time: 804
+17:26:35.982 -> Deceleration: 12
+17:26:35.982 -> 1
+17:26:36.741 -> Time: 807
+17:26:36.788 -> Deceleration: 6
+17:26:36.788 -> 2
+17:26:37.548 -> Time: 810
+17:26:37.595 -> Deceleration: 0
+17:26:37.595 -> 3
+17:26:38.402 -> Time: 813
+17:26:38.402 -> Deceleration: 6
+17:26:38.402 -> 4
+17:26:39.209 -> Time: 816
+17:26:39.209 -> Deceleration: 0
+17:26:39.263 -> 5
+17:26:40.016 -> Time: 819
+17:26:40.016 -> Deceleration: 6
+17:26:40.070 -> 6
+17:26:40.877 -> Time: 825
+17:26:40.877 -> Deceleration: -6
+17:26:40.877 -> 7
+17:26:41.680 -> Time: 825
+17:26:41.680 -> Deceleration: 6
+17:26:41.727 -> 8
+17:26:42.487 -> Time: 828
+17:26:42.534 -> Deceleration: -12
+17:26:42.534 -> 9
+17:26:43.340 -> Time: 828
+17:26:43.340 -> Deceleration: 0
+17:26:43.340 -> 10
+17:26:44.162 -> Time: 834
+17:26:44.162 -> Deceleration: 0
+17:26:44.201 -> 11
+17:26:45.008 -> Time: 837
+17:26:45.008 -> Deceleration: 6
+17:26:45.055 -> 12
+17:26:45.858 -> Time: 837
+17:26:45.858 -> Deceleration: -6
+17:26:45.858 -> 13
+17:26:46.664 -> Time: 840
+17:26:46.718 -> Deceleration: 0
+17:26:46.718 -> 14
+17:26:47.525 -> Time: 843
+17:26:47.525 -> Deceleration: -6
+17:26:47.572 -> 15
+17:26:48.378 -> Time: 846
+17:26:48.378 -> Deceleration: 12
+17:26:48.432 -> 16
+17:26:49.239 -> Time: 849
+17:26:49.239 -> Deceleration: 6
+17:26:49.239 -> 17
+17:26:50.093 -> Time: 855
+17:26:50.093 -> Deceleration: 6
+17:26:50.147 -> 18
+17:26:50.954 -> Time: 858
+17:26:50.954 -> Deceleration: -12
+17:26:50.954 -> 19
+17:26:51.804 -> Time: 861
+17:26:51.804 -> Deceleration: -6
+17:26:51.858 -> 20
+17:26:52.664 -> Time: 873
+17:26:52.711 -> Deceleration: 18
+17:26:52.711 -> 21
+17:26:53.571 -> Time: 894
+17:26:53.571 -> Deceleration: 0
+17:26:53.571 -> 22
+17:26:54.479 -> Time: 912
+17:26:54.479 -> Deceleration: 12
+17:26:54.526 -> 23
+17:26:55.385 -> Time: 924
+17:26:55.385 -> Deceleration: 0
+17:26:55.432 -> 24
+17:26:56.338 -> Time: 933
+17:26:56.338 -> Deceleration: -6
+17:26:56.338 -> 25
+17:26:57.262 -> Time: 936
+17:26:57.262 -> Deceleration: 0
+17:26:57.300 -> 26
+17:26:58.208 -> Time: 939
+17:26:58.208 -> Deceleration: -6
+17:26:58.255 -> 27
+17:26:59.162 -> Time: 945
+17:26:59.162 -> Deceleration: -6
+17:26:59.162 -> 28
+17:27:00.123 -> Time: 948
+17:27:00.123 -> Deceleration: 12
+17:27:00.123 -> 29
+17:27:01.030 -> Time: 951
+17:27:01.077 -> Deceleration: -6
+17:27:01.077 -> 30
+17:27:02.035 -> Time: 957
+17:27:02.035 -> Deceleration: -6
+17:27:02.035 -> 31
+17:27:02.990 -> Time: 957
+17:27:02.990 -> Deceleration: -6
+17:27:02.990 -> 32
+17:27:03.952 -> Time: 963
+17:27:03.952 -> Deceleration: 6
+17:27:03.952 -> 33
+17:27:04.905 -> Time: 969
+17:27:04.905 -> Deceleration: 6
+17:27:04.959 -> 34
+17:27:05.863 -> Time: 972
+17:27:05.863 -> Deceleration: 0
+17:27:05.910 -> 35
+17:27:06.872 -> Time: 972
+17:27:06.872 -> Deceleration: 0
+17:27:06.872 -> 36
+17:27:07.825 -> Time: 981
+17:27:07.825 -> Deceleration: 6
+17:27:07.880 -> 37
+17:27:08.835 -> Time: 1017
+17:27:08.835 -> Deceleration: 6
+17:27:08.889 -> 38
+17:27:09.944 -> Time: 1146
+17:27:09.944 -> Deceleration: 12
+17:27:09.999 -> 39
+17:27:11.209 -> Time: 1308
+17:27:11.209 -> Deceleration: 36
+17:27:11.209 -> 40
+17:27:12.663 -> Time: 1527
+17:27:12.663 -> Deceleration: 42
+17:27:12.663 -> 41
+17:27:14.478 -> Time: 1962
+17:27:14.478 -> Deceleration: 96
+17:27:14.478 -> 42
+17:27:16.848 -> Time: 2550
+17:27:16.848 -> Deceleration: 132
+17:27:16.848 -> 43
+17:27:19.858 -> Time: 3138
+17:27:19.858 -> Deceleration: 12
+17:27:19.905 -> 44
+17:27:23.098 -> Time: 3222
+17:27:23.098 -> Deceleration: 12
+17:27:23.098 -> 45
+17:27:26.423 -> Time: 3306
+17:27:26.423 -> Deceleration: 0
+17:27:26.423 -> 46
+17:27:29.816 -> Time: 3399
+17:27:29.816 -> Deceleration: 18
+17:27:29.854 -> 47
+17:27:33.326 -> Time: 3507
+17:27:33.326 -> Deceleration: 30
+17:27:33.380 -> 48
+17:27:36.082 -> Deadline for measurements is over. Measurement is not valid.
+17:27:36.176 -> Time: 3507
+17:27:36.176 -> Deceleration: 30
+17:27:36.176 -> 49
+17:27:39.022 -> Deadline for measurements is over. Measurement is not valid.
+17:27:39.122 -> Time: 3507
+17:27:39.122 -> Deceleration: 30
+17:27:39.122 -> 50
+17:27:42.926 -> Deadline for measurements is over. Measurement is not valid.
+17:27:42.963 -> Time: 3507
+17:27:43.010 -> Deceleration: 30
+17:27:43.010 -> 51
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+17:31:38.212 -> Time: 1245
+17:31:38.212 -> Deceleration: 6
+17:31:38.212 -> 0
+17:31:39.476 -> Time: 1254
+17:31:39.476 -> Deceleration: 0
+17:31:39.476 -> 1
+17:31:40.726 -> Time: 1260
+17:31:40.726 -> Deceleration: 0
+17:31:40.726 -> 2
+17:31:41.982 -> Time: 1263
+17:31:41.982 -> Deceleration: -6
+17:31:42.029 -> 3
+17:31:43.287 -> Time: 1275
+17:31:43.287 -> Deceleration: -6
+17:31:43.287 -> 4
+17:31:44.544 -> Time: 1284
+17:31:44.544 -> Deceleration: 0
+17:31:44.598 -> 5
+17:31:45.852 -> Time: 1290
+17:31:45.852 -> Deceleration: 0
+17:31:45.852 -> 6
+17:31:47.174 -> Time: 1371
+17:31:47.174 -> Deceleration: 30
+17:31:47.221 -> 7
+17:31:48.835 -> Time: 1866
+17:31:48.835 -> Deceleration: 120
+17:31:48.889 -> 8
+17:31:50.805 -> Time: 1971
+17:31:50.805 -> Deceleration: 6
+17:31:50.852 -> 9
+17:31:52.818 -> Time: 1995
+17:31:52.818 -> Deceleration: 6
+17:31:52.818 -> 10
+17:31:54.836 -> Time: 2022
+17:31:54.836 -> Deceleration: 12
+17:31:54.883 -> 11
+17:31:56.894 -> Time: 2049
+17:31:56.894 -> Deceleration: 6
+17:31:56.894 -> 12
+17:31:58.966 -> Time: 2079
+17:31:58.966 -> Deceleration: 6
+17:31:59.013 -> 13
+17:32:01.084 -> Time: 2112
+17:32:01.084 -> Deceleration: 0
+17:32:01.084 -> 14
+17:32:05.464 -> Time: 7188
+17:32:05.464 -> Deceleration: -288
+17:32:05.464 -> 15
+17:32:18.665 -> Time: 10689
+17:32:18.719 -> Deceleration: 1134
+17:32:18.719 -> 16
+17:32:32.392 -> Time: 19050
+17:32:32.438 -> Deceleration: 5844
+17:32:32.438 -> 17
+17:32:52.381 -> Deadline for measurements is over. Measurement is not valid.
+17:32:52.469 -> Time: 19050
+17:32:52.469 -> Deceleration: 5844
+17:32:52.516 -> 18
+17:32:53.189 -> Deadline for measurements is over. Measurement is not valid.
+17:32:53.244 -> Time: 19050
+17:32:53.244 -> Deceleration: 5844
+17:32:53.244 -> 19
+17:32:53.948 -> Deadline for measurements is over. Measurement is not valid.
+17:32:53.995 -> Time: 19050
+17:32:53.995 -> Deceleration: 5844
+17:32:54.049 -> 20
+17:32:54.701 -> Deadline for measurements is over. Measurement is not valid.
+17:32:54.802 -> Time: 19050
+17:32:54.802 -> Deceleration: 5844
+17:32:54.802 -> 21
+17:32:55.509 -> Deadline for measurements is over. Measurement is not valid.
+17:32:55.561 -> Time: 19050
+17:32:55.561 -> Deceleration: 5844
+17:32:55.608 -> 22
+17:32:56.263 -> Deadline for measurements is over. Measurement is not valid.
+17:32:56.364 -> Time: 19050
+17:32:56.364 -> Deceleration: 5844
+17:32:56.364 -> 23
+17:32:57.070 -> Deadline for measurements is over. Measurement is not valid.
+17:32:57.116 -> Time: 19050
+17:32:57.116 -> Deceleration: 5844
+17:32:57.170 -> 24
+17:32:57.822 -> Deadline for measurements is over. Measurement is not valid.
+17:32:57.922 -> Time: 19050
+17:32:57.922 -> Deceleration: 5844
+17:32:57.922 -> 25
+17:32:58.627 -> Deadline for measurements is over. Measurement is not valid.
+17:32:58.680 -> Time: 19050
+17:32:58.680 -> Deceleration: 5844
+17:32:58.727 -> 26
+17:32:59.433 -> Deadline for measurements is over. Measurement is not valid.
+17:32:59.487 -> Time: 19050
+17:32:59.487 -> Deceleration: 5844
+17:32:59.534 -> 27
+17:33:00.193 -> Deadline for measurements is over. Measurement is not valid.
+17:33:00.293 -> Time: 19050
+17:33:00.293 -> Deceleration: 5844
+17:33:00.293 -> 28
+17:33:00.998 -> Deadline for measurements is over. Measurement is not valid.
+17:33:01.045 -> Time: 19050
+17:33:01.099 -> Deceleration: 5844
+17:33:01.099 -> 29
+17:33:01.781 -> Deadline for measurements is over. Measurement is not valid.
+17:33:01.866 -> Time: 19050
+17:33:01.866 -> Deceleration: 5844
+17:33:01.904 -> 30
+17:33:02.608 -> Deadline for measurements is over. Measurement is not valid.
+17:33:02.654 -> Time: 19050
+17:33:02.654 -> Deceleration: 5844
+17:33:02.707 -> 31
+17:33:03.411 -> Deadline for measurements is over. Measurement is not valid.
+17:33:03.458 -> Time: 19050
+17:33:03.512 -> Deceleration: 5844
+17:33:03.512 -> 32
+17:33:04.217 -> Deadline for measurements is over. Measurement is not valid.
+17:33:04.264 -> Time: 19050
+17:33:04.264 -> Deceleration: 5844
+17:33:04.318 -> 33
+17:33:05.024 -> Deadline for measurements is over. Measurement is not valid.
+17:33:05.071 -> Time: 19050
+17:33:05.124 -> Deceleration: 5844
+17:33:05.124 -> 34
+17:33:05.828 -> Deadline for measurements is over. Measurement is not valid.
+17:33:05.875 -> Time: 19050
+17:33:05.928 -> Deceleration: 5844
+17:33:05.928 -> 35
+17:33:06.647 -> Deadline for measurements is over. Measurement is not valid.
+17:33:06.694 -> Time: 19050
+17:33:06.731 -> Deceleration: 5844
+17:33:06.731 -> 36
+17:33:07.481 -> Deadline for measurements is over. Measurement is not valid.
+17:33:07.535 -> Time: 19050
+17:33:07.535 -> Deceleration: 5844
+17:33:07.535 -> 37
+17:33:08.270 -> Deadline for measurements is over. Measurement is not valid.
+17:33:08.354 -> Time: 19050
+17:33:08.354 -> Deceleration: 5844
+17:33:08.354 -> 38
+17:33:09.088 -> Deadline for measurements is over. Measurement is not valid.
+17:33:09.142 -> Time: 19050
+17:33:09.189 -> Deceleration: 5844
+17:33:09.189 -> 39
+17:33:09.946 -> Deadline for measurements is over. Measurement is not valid.
+17:33:09.993 -> Time: 19050
+17:33:09.993 -> Deceleration: 5844
+17:33:10.047 -> 40
+17:33:10.748 -> Deadline for measurements is over. Measurement is not valid.
+17:33:10.795 -> Time: 19050
+17:33:10.848 -> Deceleration: 5844
+17:33:10.848 -> 41
+17:33:11.600 -> Deadline for measurements is over. Measurement is not valid.
+17:33:11.653 -> Time: 19050
+17:33:11.653 -> Deceleration: 5844
+17:33:11.700 -> 42
+17:33:12.402 -> Deadline for measurements is over. Measurement is not valid.
+17:33:12.456 -> Time: 19050
+17:33:12.503 -> Deceleration: 5844
+17:33:12.503 -> 43
+17:33:13.262 -> Deadline for measurements is over. Measurement is not valid.
+17:33:13.309 -> Time: 19050
+17:33:13.309 -> Deceleration: 5844
+17:33:13.363 -> 44
+17:33:14.068 -> Deadline for measurements is over. Measurement is not valid.
+17:33:14.169 -> Time: 19050
+17:33:14.169 -> Deceleration: 5844
+17:33:14.169 -> 45
+17:33:14.922 -> Deadline for measurements is over. Measurement is not valid.
+17:33:14.976 -> Time: 19050
+17:33:15.023 -> Deceleration: 5844
+17:33:15.023 -> 46
+17:33:15.780 -> Deadline for measurements is over. Measurement is not valid.
+17:33:15.827 -> Time: 19050
+17:33:15.827 -> Deceleration: 5844
+17:33:15.881 -> 47
+17:33:16.632 -> Deadline for measurements is over. Measurement is not valid.
+17:33:16.684 -> Time: 19050
+17:33:16.684 -> Deceleration: 5844
+17:33:16.732 -> 48
+17:33:17.489 -> Deadline for measurements is over. Measurement is not valid.
+17:33:17.535 -> Time: 19050
+17:33:17.535 -> Deceleration: 5844
+17:33:17.590 -> 49
+17:33:18.317 -> Deadline for measurements is over. Measurement is not valid.
+17:33:18.385 -> Time: 19050
+17:33:18.385 -> Deceleration: 5844
+17:33:18.419 -> 50
+17:33:19.184 -> Deadline for measurements is over. Measurement is not valid.
+17:33:19.254 -> Time: 19050
+17:33:19.254 -> Deceleration: 5844
+17:33:19.254 -> 51
+17:33:20.048 -> Deadline for measurements is over. Measurement is not valid.
+17:33:20.082 -> Time: 19050
+17:33:20.116 -> Deceleration: 5844
+17:33:20.116 -> 52
+17:33:20.905 -> Deadline for measurements is over. Measurement is not valid.
+17:33:20.953 -> Time: 19050
+17:33:20.953 -> Deceleration: 5844
+17:33:21.006 -> 53
+17:33:28.296 -> Time: 885
+17:33:28.296 -> Deceleration: -6
+17:33:28.350 -> 0
+17:33:29.204 -> Time: 888
+17:33:29.204 -> Deceleration: 0
+17:33:29.258 -> 1
+17:33:30.111 -> Time: 894
+17:33:30.111 -> Deceleration: 0
+17:33:30.111 -> 2
+17:33:30.971 -> Time: 897
+17:33:31.018 -> Deceleration: -6
+17:33:31.018 -> 3
+17:33:31.876 -> Time: 903
+17:33:31.923 -> Deceleration: 6
+17:33:31.923 -> 4
+17:33:32.779 -> Time: 906
+17:33:32.826 -> Deceleration: 12
+17:33:32.826 -> 5
+17:33:33.686 -> Time: 909
+17:33:33.733 -> Deceleration: -6
+17:33:33.733 -> 6
+17:33:34.640 -> Time: 912
+17:33:34.640 -> Deceleration: 0
+17:33:34.640 -> 7
+17:33:35.515 -> Time: 915
+17:33:35.562 -> Deceleration: -6
+17:33:35.562 -> 8
+17:33:36.464 -> Time: 918
+17:33:36.464 -> Deceleration: 12
+17:33:36.511 -> 9
+17:33:37.370 -> Time: 927
+17:33:37.417 -> Deceleration: 6
+17:33:37.417 -> 10
+17:33:38.324 -> Time: 927
+17:33:38.324 -> Deceleration: -6
+17:33:38.324 -> 11
+17:33:39.230 -> Time: 927
+17:33:39.230 -> Deceleration: -6
+17:33:39.284 -> 12
+17:33:40.191 -> Time: 933
+17:33:40.191 -> Deceleration: 6
+17:33:40.191 -> 13
+17:33:41.097 -> Time: 936
+17:33:41.145 -> Deceleration: 0
+17:33:41.145 -> 14
+17:33:42.050 -> Time: 939
+17:33:42.050 -> Deceleration: -6
+17:33:42.103 -> 15
+17:33:43.009 -> Time: 942
+17:33:43.009 -> Deceleration: 0
+17:33:43.009 -> 16
+17:33:43.964 -> Time: 951
+17:33:43.964 -> Deceleration: 6
+17:33:43.964 -> 17
+17:33:44.925 -> Time: 951
+17:33:44.925 -> Deceleration: 6
+17:33:44.925 -> 18
+17:33:45.877 -> Time: 954
+17:33:45.877 -> Deceleration: -12
+17:33:45.877 -> 19
+17:33:46.824 -> Time: 957
+17:33:46.824 -> Deceleration: 6
+17:33:46.824 -> 20
+17:33:47.786 -> Time: 966
+17:33:47.786 -> Deceleration: 0
+17:33:47.833 -> 21
+17:33:48.741 -> Time: 966
+17:33:48.741 -> Deceleration: 0
+17:33:48.795 -> 22
+17:33:49.702 -> Time: 969
+17:33:49.750 -> Deceleration: 6
+17:33:49.750 -> 23
+17:33:50.710 -> Time: 975
+17:33:50.710 -> Deceleration: 6
+17:33:50.710 -> 24
+17:33:51.664 -> Time: 978
+17:33:51.717 -> Deceleration: 12
+17:33:51.717 -> 25
+17:33:52.667 -> Time: 984
+17:33:52.667 -> Deceleration: 0
+17:33:52.722 -> 26
+17:33:53.677 -> Time: 990
+17:33:53.677 -> Deceleration: 12
+17:33:53.677 -> 27
+17:33:54.638 -> Time: 993
+17:33:54.685 -> Deceleration: -6
+17:33:54.685 -> 28
+17:33:55.646 -> Time: 993
+17:33:55.646 -> Deceleration: -6
+17:33:55.693 -> 29
+17:33:56.651 -> Time: 1002
+17:33:56.651 -> Deceleration: 0
+17:33:56.713 -> 30
+17:33:57.656 -> Time: 1005
+17:33:57.656 -> Deceleration: 6
+17:33:57.703 -> 31
+17:33:58.692 -> Time: 1008
+17:33:58.692 -> Deceleration: 12
+17:33:58.692 -> 32
+17:33:59.667 -> Time: 1014
+17:33:59.714 -> Deceleration: 0
+17:33:59.714 -> 33
+17:34:00.719 -> Time: 1020
+17:34:00.719 -> Deceleration: 0
+17:34:00.719 -> 34
+17:34:01.722 -> Time: 1026
+17:34:01.776 -> Deceleration: 0
+17:34:01.776 -> 35
+17:34:02.780 -> Time: 1029
+17:34:02.780 -> Deceleration: 6
+17:34:02.780 -> 36
+17:34:03.814 -> Time: 1035
+17:34:03.814 -> Deceleration: 6
+17:34:03.814 -> 37
+17:34:04.834 -> Time: 1038
+17:34:04.834 -> Deceleration: 0
+17:34:04.887 -> 38
+17:34:05.893 -> Time: 1044
+17:34:05.893 -> Deceleration: 0
+17:34:05.939 -> 39
+17:34:06.944 -> Time: 1047
+17:34:06.944 -> Deceleration: 6
+17:34:06.997 -> 40
+17:34:08.001 -> Time: 1053
+17:34:08.001 -> Deceleration: 6
+17:34:08.001 -> 41
+17:34:09.069 -> Time: 1059
+17:34:09.069 -> Deceleration: 6
+17:34:09.069 -> 42
+17:34:10.110 -> Time: 1065
+17:34:10.156 -> Deceleration: -6
+17:34:10.156 -> 43
+17:34:11.216 -> Time: 1068
+17:34:11.216 -> Deceleration: 0
+17:34:11.216 -> 44
+17:34:12.268 -> Time: 1077
+17:34:12.268 -> Deceleration: 6
+17:34:12.321 -> 45
+17:34:13.373 -> Time: 1080
+17:34:13.373 -> Deceleration: 0
+17:34:13.373 -> 46
+17:34:14.429 -> Time: 1086
+17:34:14.429 -> Deceleration: 12
+17:34:14.476 -> 47
+17:34:15.521 -> Time: 1089
+17:34:15.521 -> Deceleration: 6
+17:34:15.568 -> 48
+17:34:16.641 -> Time: 1095
+17:34:16.641 -> Deceleration: -6
+17:34:16.641 -> 49
+17:34:17.711 -> Time: 1101
+17:34:17.749 -> Deceleration: -6
+17:34:17.749 -> 50
+17:34:18.858 -> Time: 1107
+17:34:18.858 -> Deceleration: 6
+17:34:18.858 -> 51
+17:34:19.968 -> Time: 1113
+17:34:19.968 -> Deceleration: -6
+17:34:19.968 -> 52
+17:34:21.077 -> Time: 1119
+17:34:21.077 -> Deceleration: -6
+17:34:21.125 -> 53
+17:34:22.184 -> Time: 1125
+17:34:22.231 -> Deceleration: 6
+17:34:22.231 -> 54
+17:34:23.336 -> Time: 1131
+17:34:23.336 -> Deceleration: -6
+17:34:23.336 -> 55
+17:34:24.441 -> Time: 1137
+17:34:24.496 -> Deceleration: -6
+17:34:24.496 -> 56
+17:34:25.602 -> Time: 1143
+17:34:25.602 -> Deceleration: 6
+17:34:25.648 -> 57
+17:34:26.751 -> Time: 1149
+17:34:26.788 -> Deceleration: 6
+17:34:26.788 -> 58
+17:34:27.924 -> Time: 1155
+17:34:27.924 -> Deceleration: -6
+17:34:27.978 -> 59
+17:34:29.083 -> Time: 1161
+17:34:29.083 -> Deceleration: -6
+17:34:29.131 -> 60
+17:34:30.239 -> Time: 1170
+17:34:30.292 -> Deceleration: 12
+17:34:30.292 -> 61
+17:34:31.447 -> Time: 1179
+17:34:31.447 -> Deceleration: -6
+17:34:31.447 -> 62
+17:34:32.606 -> Time: 1182
+17:34:32.606 -> Deceleration: 0
+17:34:32.653 -> 63
+17:34:33.813 -> Time: 1188
+17:34:33.813 -> Deceleration: 0
+17:34:33.813 -> 64
+17:34:34.997 -> Time: 1194
+17:34:34.997 -> Deceleration: 0
+17:34:35.035 -> 65
+17:34:36.223 -> Time: 1203
+17:34:36.223 -> Deceleration: -6
+17:34:36.223 -> 66
+17:34:37.431 -> Time: 1209
+17:34:37.431 -> Deceleration: 6
+17:34:37.431 -> 67
+17:34:38.641 -> Time: 1215
+17:34:38.641 -> Deceleration: -6
+17:34:38.641 -> 68
+17:34:39.851 -> Time: 1218
+17:34:39.851 -> Deceleration: 12
+17:34:39.897 -> 69
+17:34:41.088 -> Time: 1227
+17:34:41.088 -> Deceleration: 6
+17:34:41.135 -> 70
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+17:31:38.212 -> Time: 1245
+17:31:38.212 -> Deceleration: 6
+17:31:38.212 -> 0
+17:31:39.476 -> Time: 1254
+17:31:39.476 -> Deceleration: 0
+17:31:39.476 -> 1
+17:31:40.726 -> Time: 1260
+17:31:40.726 -> Deceleration: 0
+17:31:40.726 -> 2
+17:31:41.982 -> Time: 1263
+17:31:41.982 -> Deceleration: -6
+17:31:42.029 -> 3
+17:31:43.287 -> Time: 1275
+17:31:43.287 -> Deceleration: -6
+17:31:43.287 -> 4
+17:31:44.544 -> Time: 1284
+17:31:44.544 -> Deceleration: 0
+17:31:44.598 -> 5
+17:31:45.852 -> Time: 1290
+17:31:45.852 -> Deceleration: 0
+17:31:45.852 -> 6
+17:31:47.174 -> Time: 1371
+17:31:47.174 -> Deceleration: 30
+17:31:47.221 -> 7
+17:31:48.835 -> Time: 1866
+17:31:48.835 -> Deceleration: 120
+17:31:48.889 -> 8
+17:31:50.805 -> Time: 1971
+17:31:50.805 -> Deceleration: 6
+17:31:50.852 -> 9
+17:31:52.818 -> Time: 1995
+17:31:52.818 -> Deceleration: 6
+17:31:52.818 -> 10
+17:31:54.836 -> Time: 2022
+17:31:54.836 -> Deceleration: 12
+17:31:54.883 -> 11
+17:31:56.894 -> Time: 2049
+17:31:56.894 -> Deceleration: 6
+17:31:56.894 -> 12
+17:31:58.966 -> Time: 2079
+17:31:58.966 -> Deceleration: 6
+17:31:59.013 -> 13
+17:32:01.084 -> Time: 2112
+17:32:01.084 -> Deceleration: 0
+17:32:01.084 -> 14
+17:32:05.464 -> Time: 7188
+17:32:05.464 -> Deceleration: -288
+17:32:05.464 -> 15
+17:32:18.665 -> Time: 10689
+17:32:18.719 -> Deceleration: 1134
+17:32:18.719 -> 16
+17:32:32.392 -> Time: 19050
+17:32:32.438 -> Deceleration: 5844
+17:32:32.438 -> 17
+17:32:52.381 -> Deadline for measurements is over. Measurement is not valid.
+17:32:52.469 -> Time: 19050
+17:32:52.469 -> Deceleration: 5844
+17:32:52.516 -> 18
+17:32:53.189 -> Deadline for measurements is over. Measurement is not valid.
+17:32:53.244 -> Time: 19050
+17:32:53.244 -> Deceleration: 5844
+17:32:53.244 -> 19
+17:32:53.948 -> Deadline for measurements is over. Measurement is not valid.
+17:32:53.995 -> Time: 19050
+17:32:53.995 -> Deceleration: 5844
+17:32:54.049 -> 20
+17:32:54.701 -> Deadline for measurements is over. Measurement is not valid.
+17:32:54.802 -> Time: 19050
+17:32:54.802 -> Deceleration: 5844
+17:32:54.802 -> 21
+17:32:55.509 -> Deadline for measurements is over. Measurement is not valid.
+17:32:55.561 -> Time: 19050
+17:32:55.561 -> Deceleration: 5844
+17:32:55.608 -> 22
+17:32:56.263 -> Deadline for measurements is over. Measurement is not valid.
+17:32:56.364 -> Time: 19050
+17:32:56.364 -> Deceleration: 5844
+17:32:56.364 -> 23
+17:32:57.070 -> Deadline for measurements is over. Measurement is not valid.
+17:32:57.116 -> Time: 19050
+17:32:57.116 -> Deceleration: 5844
+17:32:57.170 -> 24
+17:32:57.822 -> Deadline for measurements is over. Measurement is not valid.
+17:32:57.922 -> Time: 19050
+17:32:57.922 -> Deceleration: 5844
+17:32:57.922 -> 25
+17:32:58.627 -> Deadline for measurements is over. Measurement is not valid.
+17:32:58.680 -> Time: 19050
+17:32:58.680 -> Deceleration: 5844
+17:32:58.727 -> 26
+17:32:59.433 -> Deadline for measurements is over. Measurement is not valid.
+17:32:59.487 -> Time: 19050
+17:32:59.487 -> Deceleration: 5844
+17:32:59.534 -> 27
+17:33:00.193 -> Deadline for measurements is over. Measurement is not valid.
+17:33:00.293 -> Time: 19050
+17:33:00.293 -> Deceleration: 5844
+17:33:00.293 -> 28
+17:33:00.998 -> Deadline for measurements is over. Measurement is not valid.
+17:33:01.045 -> Time: 19050
+17:33:01.099 -> Deceleration: 5844
+17:33:01.099 -> 29
+17:33:01.781 -> Deadline for measurements is over. Measurement is not valid.
+17:33:01.866 -> Time: 19050
+17:33:01.866 -> Deceleration: 5844
+17:33:01.904 -> 30
+17:33:02.608 -> Deadline for measurements is over. Measurement is not valid.
+17:33:02.654 -> Time: 19050
+17:33:02.654 -> Deceleration: 5844
+17:33:02.707 -> 31
+17:33:03.411 -> Deadline for measurements is over. Measurement is not valid.
+17:33:03.458 -> Time: 19050
+17:33:03.512 -> Deceleration: 5844
+17:33:03.512 -> 32
+17:33:04.217 -> Deadline for measurements is over. Measurement is not valid.
+17:33:04.264 -> Time: 19050
+17:33:04.264 -> Deceleration: 5844
+17:33:04.318 -> 33
+17:33:05.024 -> Deadline for measurements is over. Measurement is not valid.
+17:33:05.071 -> Time: 19050
+17:33:05.124 -> Deceleration: 5844
+17:33:05.124 -> 34
+17:33:05.828 -> Deadline for measurements is over. Measurement is not valid.
+17:33:05.875 -> Time: 19050
+17:33:05.928 -> Deceleration: 5844
+17:33:05.928 -> 35
+17:33:06.647 -> Deadline for measurements is over. Measurement is not valid.
+17:33:06.694 -> Time: 19050
+17:33:06.731 -> Deceleration: 5844
+17:33:06.731 -> 36
+17:33:07.481 -> Deadline for measurements is over. Measurement is not valid.
+17:33:07.535 -> Time: 19050
+17:33:07.535 -> Deceleration: 5844
+17:33:07.535 -> 37
+17:33:08.270 -> Deadline for measurements is over. Measurement is not valid.
+17:33:08.354 -> Time: 19050
+17:33:08.354 -> Deceleration: 5844
+17:33:08.354 -> 38
+17:33:09.088 -> Deadline for measurements is over. Measurement is not valid.
+17:33:09.142 -> Time: 19050
+17:33:09.189 -> Deceleration: 5844
+17:33:09.189 -> 39
+17:33:09.946 -> Deadline for measurements is over. Measurement is not valid.
+17:33:09.993 -> Time: 19050
+17:33:09.993 -> Deceleration: 5844
+17:33:10.047 -> 40
+17:33:10.748 -> Deadline for measurements is over. Measurement is not valid.
+17:33:10.795 -> Time: 19050
+17:33:10.848 -> Deceleration: 5844
+17:33:10.848 -> 41
+17:33:11.600 -> Deadline for measurements is over. Measurement is not valid.
+17:33:11.653 -> Time: 19050
+17:33:11.653 -> Deceleration: 5844
+17:33:11.700 -> 42
+17:33:12.402 -> Deadline for measurements is over. Measurement is not valid.
+17:33:12.456 -> Time: 19050
+17:33:12.503 -> Deceleration: 5844
+17:33:12.503 -> 43
+17:33:13.262 -> Deadline for measurements is over. Measurement is not valid.
+17:33:13.309 -> Time: 19050
+17:33:13.309 -> Deceleration: 5844
+17:33:13.363 -> 44
+17:33:14.068 -> Deadline for measurements is over. Measurement is not valid.
+17:33:14.169 -> Time: 19050
+17:33:14.169 -> Deceleration: 5844
+17:33:14.169 -> 45
+17:33:14.922 -> Deadline for measurements is over. Measurement is not valid.
+17:33:14.976 -> Time: 19050
+17:33:15.023 -> Deceleration: 5844
+17:33:15.023 -> 46
+17:33:15.780 -> Deadline for measurements is over. Measurement is not valid.
+17:33:15.827 -> Time: 19050
+17:33:15.827 -> Deceleration: 5844
+17:33:15.881 -> 47
+17:33:16.632 -> Deadline for measurements is over. Measurement is not valid.
+17:33:16.684 -> Time: 19050
+17:33:16.684 -> Deceleration: 5844
+17:33:16.732 -> 48
+17:33:17.489 -> Deadline for measurements is over. Measurement is not valid.
+17:33:17.535 -> Time: 19050
+17:33:17.535 -> Deceleration: 5844
+17:33:17.590 -> 49
+17:33:18.317 -> Deadline for measurements is over. Measurement is not valid.
+17:33:18.385 -> Time: 19050
+17:33:18.385 -> Deceleration: 5844
+17:33:18.419 -> 50
+17:33:19.184 -> Deadline for measurements is over. Measurement is not valid.
+17:33:19.254 -> Time: 19050
+17:33:19.254 -> Deceleration: 5844
+17:33:19.254 -> 51
+17:33:20.048 -> Deadline for measurements is over. Measurement is not valid.
+17:33:20.082 -> Time: 19050
+17:33:20.116 -> Deceleration: 5844
+17:33:20.116 -> 52
+17:33:20.905 -> Deadline for measurements is over. Measurement is not valid.
+17:33:20.953 -> Time: 19050
+17:33:20.953 -> Deceleration: 5844
+17:33:21.006 -> 53
+17:33:28.296 -> Time: 885
+17:33:28.296 -> Deceleration: -6
+17:33:28.350 -> 0
+17:33:29.204 -> Time: 888
+17:33:29.204 -> Deceleration: 0
+17:33:29.258 -> 1
+17:33:30.111 -> Time: 894
+17:33:30.111 -> Deceleration: 0
+17:33:30.111 -> 2
+17:33:30.971 -> Time: 897
+17:33:31.018 -> Deceleration: -6
+17:33:31.018 -> 3
+17:33:31.876 -> Time: 903
+17:33:31.923 -> Deceleration: 6
+17:33:31.923 -> 4
+17:33:32.779 -> Time: 906
+17:33:32.826 -> Deceleration: 12
+17:33:32.826 -> 5
+17:33:33.686 -> Time: 909
+17:33:33.733 -> Deceleration: -6
+17:33:33.733 -> 6
+17:33:34.640 -> Time: 912
+17:33:34.640 -> Deceleration: 0
+17:33:34.640 -> 7
+17:33:35.515 -> Time: 915
+17:33:35.562 -> Deceleration: -6
+17:33:35.562 -> 8
+17:33:36.464 -> Time: 918
+17:33:36.464 -> Deceleration: 12
+17:33:36.511 -> 9
+17:33:37.370 -> Time: 927
+17:33:37.417 -> Deceleration: 6
+17:33:37.417 -> 10
+17:33:38.324 -> Time: 927
+17:33:38.324 -> Deceleration: -6
+17:33:38.324 -> 11
+17:33:39.230 -> Time: 927
+17:33:39.230 -> Deceleration: -6
+17:33:39.284 -> 12
+17:33:40.191 -> Time: 933
+17:33:40.191 -> Deceleration: 6
+17:33:40.191 -> 13
+17:33:41.097 -> Time: 936
+17:33:41.145 -> Deceleration: 0
+17:33:41.145 -> 14
+17:33:42.050 -> Time: 939
+17:33:42.050 -> Deceleration: -6
+17:33:42.103 -> 15
+17:33:43.009 -> Time: 942
+17:33:43.009 -> Deceleration: 0
+17:33:43.009 -> 16
+17:33:43.964 -> Time: 951
+17:33:43.964 -> Deceleration: 6
+17:33:43.964 -> 17
+17:33:44.925 -> Time: 951
+17:33:44.925 -> Deceleration: 6
+17:33:44.925 -> 18
+17:33:45.877 -> Time: 954
+17:33:45.877 -> Deceleration: -12
+17:33:45.877 -> 19
+17:33:46.824 -> Time: 957
+17:33:46.824 -> Deceleration: 6
+17:33:46.824 -> 20
+17:33:47.786 -> Time: 966
+17:33:47.786 -> Deceleration: 0
+17:33:47.833 -> 21
+17:33:48.741 -> Time: 966
+17:33:48.741 -> Deceleration: 0
+17:33:48.795 -> 22
+17:33:49.702 -> Time: 969
+17:33:49.750 -> Deceleration: 6
+17:33:49.750 -> 23
+17:33:50.710 -> Time: 975
+17:33:50.710 -> Deceleration: 6
+17:33:50.710 -> 24
+17:33:51.664 -> Time: 978
+17:33:51.717 -> Deceleration: 12
+17:33:51.717 -> 25
+17:33:52.667 -> Time: 984
+17:33:52.667 -> Deceleration: 0
+17:33:52.722 -> 26
+17:33:53.677 -> Time: 990
+17:33:53.677 -> Deceleration: 12
+17:33:53.677 -> 27
+17:33:54.638 -> Time: 993
+17:33:54.685 -> Deceleration: -6
+17:33:54.685 -> 28
+17:33:55.646 -> Time: 993
+17:33:55.646 -> Deceleration: -6
+17:33:55.693 -> 29
+17:33:56.651 -> Time: 1002
+17:33:56.651 -> Deceleration: 0
+17:33:56.713 -> 30
+17:33:57.656 -> Time: 1005
+17:33:57.656 -> Deceleration: 6
+17:33:57.703 -> 31
+17:33:58.692 -> Time: 1008
+17:33:58.692 -> Deceleration: 12
+17:33:58.692 -> 32
+17:33:59.667 -> Time: 1014
+17:33:59.714 -> Deceleration: 0
+17:33:59.714 -> 33
+17:34:00.719 -> Time: 1020
+17:34:00.719 -> Deceleration: 0
+17:34:00.719 -> 34
+17:34:01.722 -> Time: 1026
+17:34:01.776 -> Deceleration: 0
+17:34:01.776 -> 35
+17:34:02.780 -> Time: 1029
+17:34:02.780 -> Deceleration: 6
+17:34:02.780 -> 36
+17:34:03.814 -> Time: 1035
+17:34:03.814 -> Deceleration: 6
+17:34:03.814 -> 37
+17:34:04.834 -> Time: 1038
+17:34:04.834 -> Deceleration: 0
+17:34:04.887 -> 38
+17:34:05.893 -> Time: 1044
+17:34:05.893 -> Deceleration: 0
+17:34:05.939 -> 39
+17:34:06.944 -> Time: 1047
+17:34:06.944 -> Deceleration: 6
+17:34:06.997 -> 40
+17:34:08.001 -> Time: 1053
+17:34:08.001 -> Deceleration: 6
+17:34:08.001 -> 41
+17:34:09.069 -> Time: 1059
+17:34:09.069 -> Deceleration: 6
+17:34:09.069 -> 42
+17:34:10.110 -> Time: 1065
+17:34:10.156 -> Deceleration: -6
+17:34:10.156 -> 43
+17:34:11.216 -> Time: 1068
+17:34:11.216 -> Deceleration: 0
+17:34:11.216 -> 44
+17:34:12.268 -> Time: 1077
+17:34:12.268 -> Deceleration: 6
+17:34:12.321 -> 45
+17:34:13.373 -> Time: 1080
+17:34:13.373 -> Deceleration: 0
+17:34:13.373 -> 46
+17:34:14.429 -> Time: 1086
+17:34:14.429 -> Deceleration: 12
+17:34:14.476 -> 47
+17:34:15.521 -> Time: 1089
+17:34:15.521 -> Deceleration: 6
+17:34:15.568 -> 48
+17:34:16.641 -> Time: 1095
+17:34:16.641 -> Deceleration: -6
+17:34:16.641 -> 49
+17:34:17.711 -> Time: 1101
+17:34:17.749 -> Deceleration: -6
+17:34:17.749 -> 50
+17:34:18.858 -> Time: 1107
+17:34:18.858 -> Deceleration: 6
+17:34:18.858 -> 51
+17:34:19.968 -> Time: 1113
+17:34:19.968 -> Deceleration: -6
+17:34:19.968 -> 52
+17:34:21.077 -> Time: 1119
+17:34:21.077 -> Deceleration: -6
+17:34:21.125 -> 53
+17:34:22.184 -> Time: 1125
+17:34:22.231 -> Deceleration: 6
+17:34:22.231 -> 54
+17:34:23.336 -> Time: 1131
+17:34:23.336 -> Deceleration: -6
+17:34:23.336 -> 55
+17:34:24.441 -> Time: 1137
+17:34:24.496 -> Deceleration: -6
+17:34:24.496 -> 56
+17:34:25.602 -> Time: 1143
+17:34:25.602 -> Deceleration: 6
+17:34:25.648 -> 57
+17:34:26.751 -> Time: 1149
+17:34:26.788 -> Deceleration: 6
+17:34:26.788 -> 58
+17:34:27.924 -> Time: 1155
+17:34:27.924 -> Deceleration: -6
+17:34:27.978 -> 59
+17:34:29.083 -> Time: 1161
+17:34:29.083 -> Deceleration: -6
+17:34:29.131 -> 60
+17:34:30.239 -> Time: 1170
+17:34:30.292 -> Deceleration: 12
+17:34:30.292 -> 61
+17:34:31.447 -> Time: 1179
+17:34:31.447 -> Deceleration: -6
+17:34:31.447 -> 62
+17:34:32.606 -> Time: 1182
+17:34:32.606 -> Deceleration: 0
+17:34:32.653 -> 63
+17:34:33.813 -> Time: 1188
+17:34:33.813 -> Deceleration: 0
+17:34:33.813 -> 64
+17:34:34.997 -> Time: 1194
+17:34:34.997 -> Deceleration: 0
+17:34:35.035 -> 65
+17:34:36.223 -> Time: 1203
+17:34:36.223 -> Deceleration: -6
+17:34:36.223 -> 66
+17:34:37.431 -> Time: 1209
+17:34:37.431 -> Deceleration: 6
+17:34:37.431 -> 67
+17:34:38.641 -> Time: 1215
+17:34:38.641 -> Deceleration: -6
+17:34:38.641 -> 68
+17:34:39.851 -> Time: 1218
+17:34:39.851 -> Deceleration: 12
+17:34:39.897 -> 69
+17:34:41.088 -> Time: 1227
+17:34:41.088 -> Deceleration: 6
+17:34:41.135 -> 70
+17:34:42.309 -> Time: 1236
+17:34:42.363 -> Deceleration: 12
+17:34:42.363 -> 71
+17:34:43.568 -> Time: 1242
+17:34:43.568 -> Deceleration: 0
+17:34:43.615 -> 72
+17:34:44.806 -> Time: 1254
+17:34:44.852 -> Deceleration: 0
+17:34:44.852 -> 73
+17:34:46.079 -> Time: 1263
+17:34:46.079 -> Deceleration: 6
+17:34:46.126 -> 74
+17:34:47.334 -> Time: 1266
+17:34:47.388 -> Deceleration: 12
+17:34:47.388 -> 75
+17:34:48.644 -> Time: 1278
+17:34:48.644 -> Deceleration: 0
+17:34:48.644 -> 76
+17:34:49.904 -> Time: 1284
+17:34:49.951 -> Deceleration: 12
+17:34:49.951 -> 77
+17:34:51.215 -> Time: 1293
+17:34:51.215 -> Deceleration: 6
+17:34:51.262 -> 78
+17:34:52.522 -> Time: 1302
+17:34:52.522 -> Deceleration: 0
+17:34:52.522 -> 79
+17:34:53.829 -> Time: 1308
+17:34:53.829 -> Deceleration: 0
+17:34:53.875 -> 80
+17:34:55.134 -> Time: 1317
+17:34:55.181 -> Deceleration: 6
+17:34:55.181 -> 81
+17:34:56.479 -> Time: 1323
+17:34:56.479 -> Deceleration: 6
+17:34:56.526 -> 82
+17:34:57.789 -> Time: 1335
+17:34:57.836 -> Deceleration: -6
+17:34:57.836 -> 83
+17:34:59.148 -> Time: 1341
+17:34:59.148 -> Deceleration: 6
+17:34:59.203 -> 84
+17:35:00.496 -> Time: 1350
+17:35:00.496 -> Deceleration: 0
+17:35:00.544 -> 85
+17:35:01.870 -> Time: 1359
+17:35:01.870 -> Deceleration: -6
+17:35:01.923 -> 86
+17:35:03.231 -> Time: 1365
+17:35:03.231 -> Deceleration: 6
+17:35:03.278 -> 87
+17:35:04.643 -> Time: 1380
+17:35:04.643 -> Deceleration: 0
+17:35:04.643 -> 88
+17:35:06.000 -> Time: 1386
+17:35:06.053 -> Deceleration: 0
+17:35:06.053 -> 89
+17:35:07.410 -> Time: 1401
+17:35:07.410 -> Deceleration: -6
+17:35:07.464 -> 90
+17:35:08.826 -> Time: 1413
+17:35:08.826 -> Deceleration: 6
+17:35:08.879 -> 91
+17:35:10.238 -> Time: 1422
+17:35:10.292 -> Deceleration: 12
+17:35:10.292 -> 92
+17:35:11.681 -> Time: 1434
+17:35:11.681 -> Deceleration: 0
+17:35:11.719 -> 93
+17:35:13.159 -> Time: 1446
+17:35:13.159 -> Deceleration: 0
+17:35:13.159 -> 94
+17:35:14.609 -> Time: 1455
+17:35:14.609 -> Deceleration: 6
+17:35:14.609 -> 95
+17:35:16.081 -> Time: 1470
+17:35:16.081 -> Deceleration: 0
+17:35:16.081 -> 96
+17:35:17.546 -> Time: 1476
+17:35:17.546 -> Deceleration: 12
+17:35:17.593 -> 97
+17:35:19.060 -> Time: 1488
+17:35:19.060 -> Deceleration: 12
+17:35:19.060 -> 98
+17:35:20.519 -> Time: 1500
+17:35:20.573 -> Deceleration: 0
+17:35:20.573 -> 99
+17:35:22.030 -> Time: 1512
+17:35:22.084 -> Deceleration: 0
+17:35:22.084 -> 100
+17:35:23.595 -> Time: 1521
+17:35:23.595 -> Deceleration: 6
+17:35:23.595 -> 101
+17:35:25.108 -> Time: 1536
+17:35:25.108 -> Deceleration: 0
+17:35:25.155 -> 102
+17:35:26.663 -> Time: 1548
+17:35:26.663 -> Deceleration: 0
+17:35:26.717 -> 103
+17:35:28.229 -> Time: 1560
+17:35:28.229 -> Deceleration: 12
+17:35:28.276 -> 104
+17:35:29.821 -> Time: 1575
+17:35:29.821 -> Deceleration: 6
+17:35:29.821 -> 105
+17:35:31.403 -> Time: 1590
+17:35:31.403 -> Deceleration: 0
+17:35:31.403 -> 106
+17:35:33.012 -> Time: 1605
+17:35:33.012 -> Deceleration: 6
+17:35:33.012 -> 107
+17:35:34.625 -> Time: 1620
+17:35:34.625 -> Deceleration: 0
+17:35:34.679 -> 108
+17:35:36.289 -> Time: 1638
+17:35:36.289 -> Deceleration: 12
+17:35:36.289 -> 109
+17:35:37.902 -> Time: 1656
+17:35:37.949 -> Deceleration: 12
+17:35:37.949 -> 110
+17:35:39.616 -> Time: 1671
+17:35:39.616 -> Deceleration: 6
+17:35:39.616 -> 111
+17:35:41.275 -> Time: 1689
+17:35:41.329 -> Deceleration: 6
+17:35:41.329 -> 112
+17:35:42.985 -> Time: 1707
+17:35:43.039 -> Deceleration: 6
+17:35:43.039 -> 113
+17:35:44.700 -> Time: 1716
+17:35:44.753 -> Deceleration: 12
+17:35:44.753 -> 114
+17:35:46.464 -> Time: 1734
+17:35:46.464 -> Deceleration: 0
+17:35:46.464 -> 115
+17:35:48.226 -> Time: 1752
+17:35:48.226 -> Deceleration: 0
+17:35:48.226 -> 116
+17:35:49.994 -> Time: 1767
+17:35:49.994 -> Deceleration: 6
+17:35:49.994 -> 117
+17:35:51.755 -> Time: 1785
+17:35:51.755 -> Deceleration: 6
+17:35:51.810 -> 118
+17:35:53.568 -> Time: 1803
+17:35:53.568 -> Deceleration: 6
+17:35:53.621 -> 119
+17:35:55.383 -> Time: 1821
+17:35:55.383 -> Deceleration: 6
+17:35:55.437 -> 120
+17:35:57.248 -> Time: 1845
+17:35:57.248 -> Deceleration: 6
+17:35:57.248 -> 121
+17:35:59.112 -> Time: 1866
+17:35:59.112 -> Deceleration: 0
+17:35:59.112 -> 122
+17:36:00.981 -> Time: 1884
+17:36:01.027 -> Deceleration: 12
+17:36:01.027 -> 123
+17:36:02.892 -> Time: 1911
+17:36:02.939 -> Deceleration: 6
+17:36:02.939 -> 124
+17:36:04.856 -> Time: 1938
+17:36:04.856 -> Deceleration: 12
+17:36:04.909 -> 125
+17:36:06.821 -> Time: 1962
+17:36:06.821 -> Deceleration: 12
+17:36:06.868 -> 126
+17:36:08.784 -> Time: 1989
+17:36:08.838 -> Deceleration: 6
+17:36:08.838 -> 127
+17:36:10.801 -> Time: 2016
+17:36:10.855 -> Deceleration: 12
+17:36:10.855 -> 128
+17:36:12.868 -> Time: 2040
+17:36:12.868 -> Deceleration: 0
+17:36:12.914 -> 129
+17:36:14.932 -> Time: 2067
+17:36:14.932 -> Deceleration: 6
+17:36:14.986 -> 130
+17:36:17.045 -> Time: 2091
+17:36:17.045 -> Deceleration: 6
+17:36:17.045 -> 131
+17:36:19.164 -> Time: 2124
+17:36:19.164 -> Deceleration: 12
+17:36:19.164 -> 132
+17:36:21.281 -> Time: 2145
+17:36:21.334 -> Deceleration: 6
+17:36:21.334 -> 133
+17:36:23.496 -> Time: 2178
+17:36:23.496 -> Deceleration: 0
+17:36:23.496 -> 134
+17:36:25.715 -> Time: 2205
+17:36:25.715 -> Deceleration: -6
+17:36:25.715 -> 135
+17:36:27.945 -> Time: 2241
+17:36:27.945 -> Deceleration: 18
+17:36:27.983 -> 136
+17:36:30.202 -> Time: 2274
+17:36:30.249 -> Deceleration: 12
+17:36:30.249 -> 137
+17:36:32.518 -> Time: 2313
+17:36:32.565 -> Deceleration: 6
+17:36:32.565 -> 138
+17:36:34.884 -> Time: 2352
+17:36:34.884 -> Deceleration: 12
+17:36:34.939 -> 139
+17:36:37.301 -> Time: 2394
+17:36:37.301 -> Deceleration: 12
+17:36:37.301 -> 140
+17:36:39.722 -> Time: 2442
+17:36:39.722 -> Deceleration: 12
+17:36:39.775 -> 141
+17:36:42.241 -> Time: 2490
+17:36:42.241 -> Deceleration: 0
+17:36:42.241 -> 142
+17:36:44.762 -> Time: 2541
+17:36:44.762 -> Deceleration: 18
+17:36:44.816 -> 143
+17:36:47.380 -> Time: 2592
+17:36:47.380 -> Deceleration: 12
+17:36:47.380 -> 144
+17:36:50.003 -> Time: 2646
+17:36:50.057 -> Deceleration: 12
+17:36:50.057 -> 145
+17:36:52.722 -> Time: 2703
+17:36:52.722 -> Deceleration: 18
+17:36:52.776 -> 146
+17:36:55.477 -> Time: 2760
+17:36:55.477 -> Deceleration: 12
+17:36:55.516 -> 147
+17:36:58.319 -> Time: 2820
+17:36:58.319 -> Deceleration: 12
+17:36:58.319 -> 148
+17:37:01.190 -> Time: 2880
+17:37:01.190 -> Deceleration: 0
+17:37:01.244 -> 149
+17:37:04.164 -> Time: 2946
+17:37:04.164 -> Deceleration: 0
+17:37:04.164 -> 150
+17:37:07.185 -> Time: 3018
+17:37:07.185 -> Deceleration: 12
+17:37:07.185 -> 151
+17:37:10.259 -> Time: 3099
+17:37:10.311 -> Deceleration: 18
+17:37:10.311 -> 152
+17:37:13.449 -> Time: 3189
+17:37:13.503 -> Deceleration: 18
+17:37:13.503 -> 153
+17:37:16.782 -> Time: 3282
+17:37:16.782 -> Deceleration: 12
+17:37:16.782 -> 154
+17:37:20.155 -> Time: 3396
+17:37:20.155 -> Deceleration: 24
+17:37:20.208 -> 155
+17:37:23.693 -> Time: 3522
+17:37:23.693 -> Deceleration: 24
+17:37:23.747 -> 156
+17:37:27.365 -> Time: 3669
+17:37:27.365 -> Deceleration: 18
+17:37:27.365 -> 157
+17:37:31.187 -> Time: 3837
+17:37:31.187 -> Deceleration: 42
+17:37:31.234 -> 158
+17:37:35.186 -> Time: 4020
+17:37:35.221 -> Deceleration: 48
+17:37:35.221 -> 159
+17:37:51.292 -> Time: 4989
+17:37:51.292 -> Deceleration: 133
+17:37:51.339 -> 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+17:31:38.212 -> Time: 1245
+17:31:38.212 -> Deceleration: 6
+17:31:38.212 -> 0
+17:31:39.476 -> Time: 1254
+17:31:39.476 -> Deceleration: 0
+17:31:39.476 -> 1
+17:31:40.726 -> Time: 1260
+17:31:40.726 -> Deceleration: 0
+17:31:40.726 -> 2
+17:31:41.982 -> Time: 1263
+17:31:41.982 -> Deceleration: -6
+17:31:42.029 -> 3
+17:31:43.287 -> Time: 1275
+17:31:43.287 -> Deceleration: -6
+17:31:43.287 -> 4
+17:31:44.544 -> Time: 1284
+17:31:44.544 -> Deceleration: 0
+17:31:44.598 -> 5
+17:31:45.852 -> Time: 1290
+17:31:45.852 -> Deceleration: 0
+17:31:45.852 -> 6
+17:31:47.174 -> Time: 1371
+17:31:47.174 -> Deceleration: 30
+17:31:47.221 -> 7
+17:31:48.835 -> Time: 1866
+17:31:48.835 -> Deceleration: 120
+17:31:48.889 -> 8
+17:31:50.805 -> Time: 1971
+17:31:50.805 -> Deceleration: 6
+17:31:50.852 -> 9
+17:31:52.818 -> Time: 1995
+17:31:52.818 -> Deceleration: 6
+17:31:52.818 -> 10
+17:31:54.836 -> Time: 2022
+17:31:54.836 -> Deceleration: 12
+17:31:54.883 -> 11
+17:31:56.894 -> Time: 2049
+17:31:56.894 -> Deceleration: 6
+17:31:56.894 -> 12
+17:31:58.966 -> Time: 2079
+17:31:58.966 -> Deceleration: 6
+17:31:59.013 -> 13
+17:32:01.084 -> Time: 2112
+17:32:01.084 -> Deceleration: 0
+17:32:01.084 -> 14
+17:32:05.464 -> Time: 7188
+17:32:05.464 -> Deceleration: -288
+17:32:05.464 -> 15
+17:32:18.665 -> Time: 10689
+17:32:18.719 -> Deceleration: 1134
+17:32:18.719 -> 16
+17:32:32.392 -> Time: 19050
+17:32:32.438 -> Deceleration: 5844
+17:32:32.438 -> 17
+17:32:52.381 -> Deadline for measurements is over. Measurement is not valid.
+17:32:52.469 -> Time: 19050
+17:32:52.469 -> Deceleration: 5844
+17:32:52.516 -> 18
+17:32:53.189 -> Deadline for measurements is over. Measurement is not valid.
+17:32:53.244 -> Time: 19050
+17:32:53.244 -> Deceleration: 5844
+17:32:53.244 -> 19
+17:32:53.948 -> Deadline for measurements is over. Measurement is not valid.
+17:32:53.995 -> Time: 19050
+17:32:53.995 -> Deceleration: 5844
+17:32:54.049 -> 20
+17:32:54.701 -> Deadline for measurements is over. Measurement is not valid.
+17:32:54.802 -> Time: 19050
+17:32:54.802 -> Deceleration: 5844
+17:32:54.802 -> 21
+17:32:55.509 -> Deadline for measurements is over. Measurement is not valid.
+17:32:55.561 -> Time: 19050
+17:32:55.561 -> Deceleration: 5844
+17:32:55.608 -> 22
+17:32:56.263 -> Deadline for measurements is over. Measurement is not valid.
+17:32:56.364 -> Time: 19050
+17:32:56.364 -> Deceleration: 5844
+17:32:56.364 -> 23
+17:32:57.070 -> Deadline for measurements is over. Measurement is not valid.
+17:32:57.116 -> Time: 19050
+17:32:57.116 -> Deceleration: 5844
+17:32:57.170 -> 24
+17:32:57.822 -> Deadline for measurements is over. Measurement is not valid.
+17:32:57.922 -> Time: 19050
+17:32:57.922 -> Deceleration: 5844
+17:32:57.922 -> 25
+17:32:58.627 -> Deadline for measurements is over. Measurement is not valid.
+17:32:58.680 -> Time: 19050
+17:32:58.680 -> Deceleration: 5844
+17:32:58.727 -> 26
+17:32:59.433 -> Deadline for measurements is over. Measurement is not valid.
+17:32:59.487 -> Time: 19050
+17:32:59.487 -> Deceleration: 5844
+17:32:59.534 -> 27
+17:33:00.193 -> Deadline for measurements is over. Measurement is not valid.
+17:33:00.293 -> Time: 19050
+17:33:00.293 -> Deceleration: 5844
+17:33:00.293 -> 28
+17:33:00.998 -> Deadline for measurements is over. Measurement is not valid.
+17:33:01.045 -> Time: 19050
+17:33:01.099 -> Deceleration: 5844
+17:33:01.099 -> 29
+17:33:01.781 -> Deadline for measurements is over. Measurement is not valid.
+17:33:01.866 -> Time: 19050
+17:33:01.866 -> Deceleration: 5844
+17:33:01.904 -> 30
+17:33:02.608 -> Deadline for measurements is over. Measurement is not valid.
+17:33:02.654 -> Time: 19050
+17:33:02.654 -> Deceleration: 5844
+17:33:02.707 -> 31
+17:33:03.411 -> Deadline for measurements is over. Measurement is not valid.
+17:33:03.458 -> Time: 19050
+17:33:03.512 -> Deceleration: 5844
+17:33:03.512 -> 32
+17:33:04.217 -> Deadline for measurements is over. Measurement is not valid.
+17:33:04.264 -> Time: 19050
+17:33:04.264 -> Deceleration: 5844
+17:33:04.318 -> 33
+17:33:05.024 -> Deadline for measurements is over. Measurement is not valid.
+17:33:05.071 -> Time: 19050
+17:33:05.124 -> Deceleration: 5844
+17:33:05.124 -> 34
+17:33:05.828 -> Deadline for measurements is over. Measurement is not valid.
+17:33:05.875 -> Time: 19050
+17:33:05.928 -> Deceleration: 5844
+17:33:05.928 -> 35
+17:33:06.647 -> Deadline for measurements is over. Measurement is not valid.
+17:33:06.694 -> Time: 19050
+17:33:06.731 -> Deceleration: 5844
+17:33:06.731 -> 36
+17:33:07.481 -> Deadline for measurements is over. Measurement is not valid.
+17:33:07.535 -> Time: 19050
+17:33:07.535 -> Deceleration: 5844
+17:33:07.535 -> 37
+17:33:08.270 -> Deadline for measurements is over. Measurement is not valid.
+17:33:08.354 -> Time: 19050
+17:33:08.354 -> Deceleration: 5844
+17:33:08.354 -> 38
+17:33:09.088 -> Deadline for measurements is over. Measurement is not valid.
+17:33:09.142 -> Time: 19050
+17:33:09.189 -> Deceleration: 5844
+17:33:09.189 -> 39
+17:33:09.946 -> Deadline for measurements is over. Measurement is not valid.
+17:33:09.993 -> Time: 19050
+17:33:09.993 -> Deceleration: 5844
+17:33:10.047 -> 40
+17:33:10.748 -> Deadline for measurements is over. Measurement is not valid.
+17:33:10.795 -> Time: 19050
+17:33:10.848 -> Deceleration: 5844
+17:33:10.848 -> 41
+17:33:11.600 -> Deadline for measurements is over. Measurement is not valid.
+17:33:11.653 -> Time: 19050
+17:33:11.653 -> Deceleration: 5844
+17:33:11.700 -> 42
+17:33:12.402 -> Deadline for measurements is over. Measurement is not valid.
+17:33:12.456 -> Time: 19050
+17:33:12.503 -> Deceleration: 5844
+17:33:12.503 -> 43
+17:33:13.262 -> Deadline for measurements is over. Measurement is not valid.
+17:33:13.309 -> Time: 19050
+17:33:13.309 -> Deceleration: 5844
+17:33:13.363 -> 44
+17:33:14.068 -> Deadline for measurements is over. Measurement is not valid.
+17:33:14.169 -> Time: 19050
+17:33:14.169 -> Deceleration: 5844
+17:33:14.169 -> 45
+17:33:14.922 -> Deadline for measurements is over. Measurement is not valid.
+17:33:14.976 -> Time: 19050
+17:33:15.023 -> Deceleration: 5844
+17:33:15.023 -> 46
+17:33:15.780 -> Deadline for measurements is over. Measurement is not valid.
+17:33:15.827 -> Time: 19050
+17:33:15.827 -> Deceleration: 5844
+17:33:15.881 -> 47
+17:33:16.632 -> Deadline for measurements is over. Measurement is not valid.
+17:33:16.684 -> Time: 19050
+17:33:16.684 -> Deceleration: 5844
+17:33:16.732 -> 48
+17:33:17.489 -> Deadline for measurements is over. Measurement is not valid.
+17:33:17.535 -> Time: 19050
+17:33:17.535 -> Deceleration: 5844
+17:33:17.590 -> 49
+17:33:18.317 -> Deadline for measurements is over. Measurement is not valid.
+17:33:18.385 -> Time: 19050
+17:33:18.385 -> Deceleration: 5844
+17:33:18.419 -> 50
+17:33:19.184 -> Deadline for measurements is over. Measurement is not valid.
+17:33:19.254 -> Time: 19050
+17:33:19.254 -> Deceleration: 5844
+17:33:19.254 -> 51
+17:33:20.048 -> Deadline for measurements is over. Measurement is not valid.
+17:33:20.082 -> Time: 19050
+17:33:20.116 -> Deceleration: 5844
+17:33:20.116 -> 52
+17:33:20.905 -> Deadline for measurements is over. Measurement is not valid.
+17:33:20.953 -> Time: 19050
+17:33:20.953 -> Deceleration: 5844
+17:33:21.006 -> 53
+17:33:28.296 -> Time: 885
+17:33:28.296 -> Deceleration: -6
+17:33:28.350 -> 0
+17:33:29.204 -> Time: 888
+17:33:29.204 -> Deceleration: 0
+17:33:29.258 -> 1
+17:33:30.111 -> Time: 894
+17:33:30.111 -> Deceleration: 0
+17:33:30.111 -> 2
+17:33:30.971 -> Time: 897
+17:33:31.018 -> Deceleration: -6
+17:33:31.018 -> 3
+17:33:31.876 -> Time: 903
+17:33:31.923 -> Deceleration: 6
+17:33:31.923 -> 4
+17:33:32.779 -> Time: 906
+17:33:32.826 -> Deceleration: 12
+17:33:32.826 -> 5
+17:33:33.686 -> Time: 909
+17:33:33.733 -> Deceleration: -6
+17:33:33.733 -> 6
+17:33:34.640 -> Time: 912
+17:33:34.640 -> Deceleration: 0
+17:33:34.640 -> 7
+17:33:35.515 -> Time: 915
+17:33:35.562 -> Deceleration: -6
+17:33:35.562 -> 8
+17:33:36.464 -> Time: 918
+17:33:36.464 -> Deceleration: 12
+17:33:36.511 -> 9
+17:33:37.370 -> Time: 927
+17:33:37.417 -> Deceleration: 6
+17:33:37.417 -> 10
+17:33:38.324 -> Time: 927
+17:33:38.324 -> Deceleration: -6
+17:33:38.324 -> 11
+17:33:39.230 -> Time: 927
+17:33:39.230 -> Deceleration: -6
+17:33:39.284 -> 12
+17:33:40.191 -> Time: 933
+17:33:40.191 -> Deceleration: 6
+17:33:40.191 -> 13
+17:33:41.097 -> Time: 936
+17:33:41.145 -> Deceleration: 0
+17:33:41.145 -> 14
+17:33:42.050 -> Time: 939
+17:33:42.050 -> Deceleration: -6
+17:33:42.103 -> 15
+17:33:43.009 -> Time: 942
+17:33:43.009 -> Deceleration: 0
+17:33:43.009 -> 16
+17:33:43.964 -> Time: 951
+17:33:43.964 -> Deceleration: 6
+17:33:43.964 -> 17
+17:33:44.925 -> Time: 951
+17:33:44.925 -> Deceleration: 6
+17:33:44.925 -> 18
+17:33:45.877 -> Time: 954
+17:33:45.877 -> Deceleration: -12
+17:33:45.877 -> 19
+17:33:46.824 -> Time: 957
+17:33:46.824 -> Deceleration: 6
+17:33:46.824 -> 20
+17:33:47.786 -> Time: 966
+17:33:47.786 -> Deceleration: 0
+17:33:47.833 -> 21
+17:33:48.741 -> Time: 966
+17:33:48.741 -> Deceleration: 0
+17:33:48.795 -> 22
+17:33:49.702 -> Time: 969
+17:33:49.750 -> Deceleration: 6
+17:33:49.750 -> 23
+17:33:50.710 -> Time: 975
+17:33:50.710 -> Deceleration: 6
+17:33:50.710 -> 24
+17:33:51.664 -> Time: 978
+17:33:51.717 -> Deceleration: 12
+17:33:51.717 -> 25
+17:33:52.667 -> Time: 984
+17:33:52.667 -> Deceleration: 0
+17:33:52.722 -> 26
+17:33:53.677 -> Time: 990
+17:33:53.677 -> Deceleration: 12
+17:33:53.677 -> 27
+17:33:54.638 -> Time: 993
+17:33:54.685 -> Deceleration: -6
+17:33:54.685 -> 28
+17:33:55.646 -> Time: 993
+17:33:55.646 -> Deceleration: -6
+17:33:55.693 -> 29
+17:33:56.651 -> Time: 1002
+17:33:56.651 -> Deceleration: 0
+17:33:56.713 -> 30
+17:33:57.656 -> Time: 1005
+17:33:57.656 -> Deceleration: 6
+17:33:57.703 -> 31
+17:33:58.692 -> Time: 1008
+17:33:58.692 -> Deceleration: 12
+17:33:58.692 -> 32
+17:33:59.667 -> Time: 1014
+17:33:59.714 -> Deceleration: 0
+17:33:59.714 -> 33
+17:34:00.719 -> Time: 1020
+17:34:00.719 -> Deceleration: 0
+17:34:00.719 -> 34
+17:34:01.722 -> Time: 1026
+17:34:01.776 -> Deceleration: 0
+17:34:01.776 -> 35
+17:34:02.780 -> Time: 1029
+17:34:02.780 -> Deceleration: 6
+17:34:02.780 -> 36
+17:34:03.814 -> Time: 1035
+17:34:03.814 -> Deceleration: 6
+17:34:03.814 -> 37
+17:34:04.834 -> Time: 1038
+17:34:04.834 -> Deceleration: 0
+17:34:04.887 -> 38
+17:34:05.893 -> Time: 1044
+17:34:05.893 -> Deceleration: 0
+17:34:05.939 -> 39
+17:34:06.944 -> Time: 1047
+17:34:06.944 -> Deceleration: 6
+17:34:06.997 -> 40
+17:34:08.001 -> Time: 1053
+17:34:08.001 -> Deceleration: 6
+17:34:08.001 -> 41
+17:34:09.069 -> Time: 1059
+17:34:09.069 -> Deceleration: 6
+17:34:09.069 -> 42
+17:34:10.110 -> Time: 1065
+17:34:10.156 -> Deceleration: -6
+17:34:10.156 -> 43
+17:34:11.216 -> Time: 1068
+17:34:11.216 -> Deceleration: 0
+17:34:11.216 -> 44
+17:34:12.268 -> Time: 1077
+17:34:12.268 -> Deceleration: 6
+17:34:12.321 -> 45
+17:34:13.373 -> Time: 1080
+17:34:13.373 -> Deceleration: 0
+17:34:13.373 -> 46
+17:34:14.429 -> Time: 1086
+17:34:14.429 -> Deceleration: 12
+17:34:14.476 -> 47
+17:34:15.521 -> Time: 1089
+17:34:15.521 -> Deceleration: 6
+17:34:15.568 -> 48
+17:34:16.641 -> Time: 1095
+17:34:16.641 -> Deceleration: -6
+17:34:16.641 -> 49
+17:34:17.711 -> Time: 1101
+17:34:17.749 -> Deceleration: -6
+17:34:17.749 -> 50
+17:34:18.858 -> Time: 1107
+17:34:18.858 -> Deceleration: 6
+17:34:18.858 -> 51
+17:34:19.968 -> Time: 1113
+17:34:19.968 -> Deceleration: -6
+17:34:19.968 -> 52
+17:34:21.077 -> Time: 1119
+17:34:21.077 -> Deceleration: -6
+17:34:21.125 -> 53
+17:34:22.184 -> Time: 1125
+17:34:22.231 -> Deceleration: 6
+17:34:22.231 -> 54
+17:34:23.336 -> Time: 1131
+17:34:23.336 -> Deceleration: -6
+17:34:23.336 -> 55
+17:34:24.441 -> Time: 1137
+17:34:24.496 -> Deceleration: -6
+17:34:24.496 -> 56
+17:34:25.602 -> Time: 1143
+17:34:25.602 -> Deceleration: 6
+17:34:25.648 -> 57
+17:34:26.751 -> Time: 1149
+17:34:26.788 -> Deceleration: 6
+17:34:26.788 -> 58
+17:34:27.924 -> Time: 1155
+17:34:27.924 -> Deceleration: -6
+17:34:27.978 -> 59
+17:34:29.083 -> Time: 1161
+17:34:29.083 -> Deceleration: -6
+17:34:29.131 -> 60
+17:34:30.239 -> Time: 1170
+17:34:30.292 -> Deceleration: 12
+17:34:30.292 -> 61
+17:34:31.447 -> Time: 1179
+17:34:31.447 -> Deceleration: -6
+17:34:31.447 -> 62
+17:34:32.606 -> Time: 1182
+17:34:32.606 -> Deceleration: 0
+17:34:32.653 -> 63
+17:34:33.813 -> Time: 1188
+17:34:33.813 -> Deceleration: 0
+17:34:33.813 -> 64
+17:34:34.997 -> Time: 1194
+17:34:34.997 -> Deceleration: 0
+17:34:35.035 -> 65
+17:34:36.223 -> Time: 1203
+17:34:36.223 -> Deceleration: -6
+17:34:36.223 -> 66
+17:34:37.431 -> Time: 1209
+17:34:37.431 -> Deceleration: 6
+17:34:37.431 -> 67
+17:34:38.641 -> Time: 1215
+17:34:38.641 -> Deceleration: -6
+17:34:38.641 -> 68
+17:34:39.851 -> Time: 1218
+17:34:39.851 -> Deceleration: 12
+17:34:39.897 -> 69
+17:34:41.088 -> Time: 1227
+17:34:41.088 -> Deceleration: 6
+17:34:41.135 -> 70
+17:34:42.309 -> Time: 1236
+17:34:42.363 -> Deceleration: 12
+17:34:42.363 -> 71
+17:34:43.568 -> Time: 1242
+17:34:43.568 -> Deceleration: 0
+17:34:43.615 -> 72
+17:34:44.806 -> Time: 1254
+17:34:44.852 -> Deceleration: 0
+17:34:44.852 -> 73
+17:34:46.079 -> Time: 1263
+17:34:46.079 -> Deceleration: 6
+17:34:46.126 -> 74
+17:34:47.334 -> Time: 1266
+17:34:47.388 -> Deceleration: 12
+17:34:47.388 -> 75
+17:34:48.644 -> Time: 1278
+17:34:48.644 -> Deceleration: 0
+17:34:48.644 -> 76
+17:34:49.904 -> Time: 1284
+17:34:49.951 -> Deceleration: 12
+17:34:49.951 -> 77
+17:34:51.215 -> Time: 1293
+17:34:51.215 -> Deceleration: 6
+17:34:51.262 -> 78
+17:34:52.522 -> Time: 1302
+17:34:52.522 -> Deceleration: 0
+17:34:52.522 -> 79
+17:34:53.829 -> Time: 1308
+17:34:53.829 -> Deceleration: 0
+17:34:53.875 -> 80
+17:34:55.134 -> Time: 1317
+17:34:55.181 -> Deceleration: 6
+17:34:55.181 -> 81
+17:34:56.479 -> Time: 1323
+17:34:56.479 -> Deceleration: 6
+17:34:56.526 -> 82
+17:34:57.789 -> Time: 1335
+17:34:57.836 -> Deceleration: -6
+17:34:57.836 -> 83
+17:34:59.148 -> Time: 1341
+17:34:59.148 -> Deceleration: 6
+17:34:59.203 -> 84
+17:35:00.496 -> Time: 1350
+17:35:00.496 -> Deceleration: 0
+17:35:00.544 -> 85
+17:35:01.870 -> Time: 1359
+17:35:01.870 -> Deceleration: -6
+17:35:01.923 -> 86
+17:35:03.231 -> Time: 1365
+17:35:03.231 -> Deceleration: 6
+17:35:03.278 -> 87
+17:35:04.643 -> Time: 1380
+17:35:04.643 -> Deceleration: 0
+17:35:04.643 -> 88
+17:35:06.000 -> Time: 1386
+17:35:06.053 -> Deceleration: 0
+17:35:06.053 -> 89
+17:35:07.410 -> Time: 1401
+17:35:07.410 -> Deceleration: -6
+17:35:07.464 -> 90
+17:35:08.826 -> Time: 1413
+17:35:08.826 -> Deceleration: 6
+17:35:08.879 -> 91
+17:35:10.238 -> Time: 1422
+17:35:10.292 -> Deceleration: 12
+17:35:10.292 -> 92
+17:35:11.681 -> Time: 1434
+17:35:11.681 -> Deceleration: 0
+17:35:11.719 -> 93
+17:35:13.159 -> Time: 1446
+17:35:13.159 -> Deceleration: 0
+17:35:13.159 -> 94
+17:35:14.609 -> Time: 1455
+17:35:14.609 -> Deceleration: 6
+17:35:14.609 -> 95
+17:35:16.081 -> Time: 1470
+17:35:16.081 -> Deceleration: 0
+17:35:16.081 -> 96
+17:35:17.546 -> Time: 1476
+17:35:17.546 -> Deceleration: 12
+17:35:17.593 -> 97
+17:35:19.060 -> Time: 1488
+17:35:19.060 -> Deceleration: 12
+17:35:19.060 -> 98
+17:35:20.519 -> Time: 1500
+17:35:20.573 -> Deceleration: 0
+17:35:20.573 -> 99
+17:35:22.030 -> Time: 1512
+17:35:22.084 -> Deceleration: 0
+17:35:22.084 -> 100
+17:35:23.595 -> Time: 1521
+17:35:23.595 -> Deceleration: 6
+17:35:23.595 -> 101
+17:35:25.108 -> Time: 1536
+17:35:25.108 -> Deceleration: 0
+17:35:25.155 -> 102
+17:35:26.663 -> Time: 1548
+17:35:26.663 -> Deceleration: 0
+17:35:26.717 -> 103
+17:35:28.229 -> Time: 1560
+17:35:28.229 -> Deceleration: 12
+17:35:28.276 -> 104
+17:35:29.821 -> Time: 1575
+17:35:29.821 -> Deceleration: 6
+17:35:29.821 -> 105
+17:35:31.403 -> Time: 1590
+17:35:31.403 -> Deceleration: 0
+17:35:31.403 -> 106
+17:35:33.012 -> Time: 1605
+17:35:33.012 -> Deceleration: 6
+17:35:33.012 -> 107
+17:35:34.625 -> Time: 1620
+17:35:34.625 -> Deceleration: 0
+17:35:34.679 -> 108
+17:35:36.289 -> Time: 1638
+17:35:36.289 -> Deceleration: 12
+17:35:36.289 -> 109
+17:35:37.902 -> Time: 1656
+17:35:37.949 -> Deceleration: 12
+17:35:37.949 -> 110
+17:35:39.616 -> Time: 1671
+17:35:39.616 -> Deceleration: 6
+17:35:39.616 -> 111
+17:35:41.275 -> Time: 1689
+17:35:41.329 -> Deceleration: 6
+17:35:41.329 -> 112
+17:35:42.985 -> Time: 1707
+17:35:43.039 -> Deceleration: 6
+17:35:43.039 -> 113
+17:35:44.700 -> Time: 1716
+17:35:44.753 -> Deceleration: 12
+17:35:44.753 -> 114
+17:35:46.464 -> Time: 1734
+17:35:46.464 -> Deceleration: 0
+17:35:46.464 -> 115
+17:35:48.226 -> Time: 1752
+17:35:48.226 -> Deceleration: 0
+17:35:48.226 -> 116
+17:35:49.994 -> Time: 1767
+17:35:49.994 -> Deceleration: 6
+17:35:49.994 -> 117
+17:35:51.755 -> Time: 1785
+17:35:51.755 -> Deceleration: 6
+17:35:51.810 -> 118
+17:35:53.568 -> Time: 1803
+17:35:53.568 -> Deceleration: 6
+17:35:53.621 -> 119
+17:35:55.383 -> Time: 1821
+17:35:55.383 -> Deceleration: 6
+17:35:55.437 -> 120
+17:35:57.248 -> Time: 1845
+17:35:57.248 -> Deceleration: 6
+17:35:57.248 -> 121
+17:35:59.112 -> Time: 1866
+17:35:59.112 -> Deceleration: 0
+17:35:59.112 -> 122
+17:36:00.981 -> Time: 1884
+17:36:01.027 -> Deceleration: 12
+17:36:01.027 -> 123
+17:36:02.892 -> Time: 1911
+17:36:02.939 -> Deceleration: 6
+17:36:02.939 -> 124
+17:36:04.856 -> Time: 1938
+17:36:04.856 -> Deceleration: 12
+17:36:04.909 -> 125
+17:36:06.821 -> Time: 1962
+17:36:06.821 -> Deceleration: 12
+17:36:06.868 -> 126
+17:36:08.784 -> Time: 1989
+17:36:08.838 -> Deceleration: 6
+17:36:08.838 -> 127
+17:36:10.801 -> Time: 2016
+17:36:10.855 -> Deceleration: 12
+17:36:10.855 -> 128
+17:36:12.868 -> Time: 2040
+17:36:12.868 -> Deceleration: 0
+17:36:12.914 -> 129
+17:36:14.932 -> Time: 2067
+17:36:14.932 -> Deceleration: 6
+17:36:14.986 -> 130
+17:36:17.045 -> Time: 2091
+17:36:17.045 -> Deceleration: 6
+17:36:17.045 -> 131
+17:36:19.164 -> Time: 2124
+17:36:19.164 -> Deceleration: 12
+17:36:19.164 -> 132
+17:36:21.281 -> Time: 2145
+17:36:21.334 -> Deceleration: 6
+17:36:21.334 -> 133
+17:36:23.496 -> Time: 2178
+17:36:23.496 -> Deceleration: 0
+17:36:23.496 -> 134
+17:36:25.715 -> Time: 2205
+17:36:25.715 -> Deceleration: -6
+17:36:25.715 -> 135
+17:36:27.945 -> Time: 2241
+17:36:27.945 -> Deceleration: 18
+17:36:27.983 -> 136
+17:36:30.202 -> Time: 2274
+17:36:30.249 -> Deceleration: 12
+17:36:30.249 -> 137
+17:36:32.518 -> Time: 2313
+17:36:32.565 -> Deceleration: 6
+17:36:32.565 -> 138
+17:36:34.884 -> Time: 2352
+17:36:34.884 -> Deceleration: 12
+17:36:34.939 -> 139
+17:36:37.301 -> Time: 2394
+17:36:37.301 -> Deceleration: 12
+17:36:37.301 -> 140
+17:36:39.722 -> Time: 2442
+17:36:39.722 -> Deceleration: 12
+17:36:39.775 -> 141
+17:36:42.241 -> Time: 2490
+17:36:42.241 -> Deceleration: 0
+17:36:42.241 -> 142
+17:36:44.762 -> Time: 2541
+17:36:44.762 -> Deceleration: 18
+17:36:44.816 -> 143
+17:36:47.380 -> Time: 2592
+17:36:47.380 -> Deceleration: 12
+17:36:47.380 -> 144
+17:36:50.003 -> Time: 2646
+17:36:50.057 -> Deceleration: 12
+17:36:50.057 -> 145
+17:36:52.722 -> Time: 2703
+17:36:52.722 -> Deceleration: 18
+17:36:52.776 -> 146
+17:36:55.477 -> Time: 2760
+17:36:55.477 -> Deceleration: 12
+17:36:55.516 -> 147
+17:36:58.319 -> Time: 2820
+17:36:58.319 -> Deceleration: 12
+17:36:58.319 -> 148
+17:37:01.190 -> Time: 2880
+17:37:01.190 -> Deceleration: 0
+17:37:01.244 -> 149
+17:37:04.164 -> Time: 2946
+17:37:04.164 -> Deceleration: 0
+17:37:04.164 -> 150
+17:37:07.185 -> Time: 3018
+17:37:07.185 -> Deceleration: 12
+17:37:07.185 -> 151
+17:37:10.259 -> Time: 3099
+17:37:10.311 -> Deceleration: 18
+17:37:10.311 -> 152
+17:37:13.449 -> Time: 3189
+17:37:13.503 -> Deceleration: 18
+17:37:13.503 -> 153
+17:37:16.782 -> Time: 3282
+17:37:16.782 -> Deceleration: 12
+17:37:16.782 -> 154
+17:37:20.155 -> Time: 3396
+17:37:20.155 -> Deceleration: 24
+17:37:20.208 -> 155
+17:37:23.693 -> Time: 3522
+17:37:23.693 -> Deceleration: 24
+17:37:23.747 -> 156
+17:37:27.365 -> Time: 3669
+17:37:27.365 -> Deceleration: 18
+17:37:27.365 -> 157
+17:37:31.187 -> Time: 3837
+17:37:31.187 -> Deceleration: 42
+17:37:31.234 -> 158
+17:37:35.186 -> Time: 4020
+17:37:35.221 -> Deceleration: 48
+17:37:35.221 -> 159
+17:37:51.292 -> Time: 4989
+17:37:51.292 -> Deceleration: 133
+17:37:51.339 -> 0
+17:37:56.624 -> Time: 5383
+17:37:56.671 -> Deceleration: 156
+17:37:56.671 -> 1
+17:38:02.487 -> Time: 5868
+17:38:02.487 -> Deceleration: 199
+17:38:02.487 -> 2
+17:38:08.890 -> Time: 6495
+17:38:08.944 -> Deceleration: 261
+17:38:08.944 -> 3
+17:38:16.185 -> Time: 7348
+17:38:16.185 -> Deceleration: 366
+17:38:16.232 -> 4
+17:38:18.498 -> Time: 1141
+17:38:18.498 -> Deceleration: -288
+17:38:18.498 -> 5
+17:38:19.405 -> Time: 909
+17:38:19.405 -> Deceleration: 3
+17:38:19.405 -> 6
+17:38:20.312 -> Time: 913
+17:38:20.312 -> Deceleration: 6
+17:38:20.312 -> 7
+17:38:21.219 -> Time: 918
+17:38:21.219 -> Deceleration: 3
+17:38:21.219 -> 8
+17:38:22.126 -> Time: 921
+17:38:22.126 -> Deceleration: 3
+17:38:22.172 -> 9
+17:38:23.075 -> Time: 925
+17:38:23.075 -> Deceleration: 1
+17:38:23.075 -> 10
+17:38:23.982 -> Time: 928
+17:38:23.982 -> Deceleration: 1
+17:38:24.036 -> 11
+17:38:24.889 -> Time: 932
+17:38:24.943 -> Deceleration: 4
+17:38:24.943 -> 12
+17:38:25.835 -> Time: 936
+17:38:25.882 -> Deceleration: 6
+17:38:25.882 -> 13
+17:38:26.802 -> Time: 940
+17:38:26.802 -> Deceleration: 6
+17:38:26.802 -> 14
+17:38:27.763 -> Time: 944
+17:38:27.763 -> Deceleration: 3
+17:38:27.763 -> 15
+17:38:28.671 -> Time: 950
+17:38:28.671 -> Deceleration: 3
+17:38:28.718 -> 16
+17:38:29.626 -> Time: 952
+17:38:29.626 -> Deceleration: 4
+17:38:29.680 -> 17
+17:38:30.587 -> Time: 956
+17:38:30.587 -> Deceleration: 4
+17:38:30.634 -> 18
+17:38:31.573 -> Time: 961
+17:38:31.573 -> Deceleration: 3
+17:38:31.573 -> 19
+17:38:32.498 -> Time: 964
+17:38:32.545 -> Deceleration: 4
+17:38:32.545 -> 20
+17:38:33.506 -> Time: 968
+17:38:33.506 -> Deceleration: 3
+17:38:33.506 -> 21
+17:38:34.444 -> Time: 972
+17:38:34.491 -> Deceleration: 4
+17:38:34.491 -> 22
+17:38:35.420 -> Time: 976
+17:38:35.420 -> Deceleration: 4
+17:38:35.468 -> 23
+17:38:36.424 -> Time: 980
+17:38:36.424 -> Deceleration: 3
+17:38:36.424 -> 24
+17:38:37.378 -> Time: 985
+17:38:37.431 -> Deceleration: 3
+17:38:37.431 -> 25
+17:38:38.386 -> Time: 988
+17:38:38.386 -> Deceleration: 4
+17:38:38.439 -> 26
+17:38:39.394 -> Time: 994
+17:38:39.394 -> Deceleration: 4
+17:38:39.394 -> 27
+17:38:40.356 -> Time: 998
+17:38:40.403 -> Deceleration: 6
+17:38:40.403 -> 28
+17:38:41.363 -> Time: 1004
+17:38:41.411 -> Deceleration: 6
+17:38:41.411 -> 29
+17:38:42.370 -> Time: 1006
+17:38:42.416 -> Deceleration: 4
+17:38:42.416 -> 30
+17:38:43.377 -> Time: 1014
+17:38:43.424 -> Deceleration: 4
+17:38:43.424 -> 31
+17:38:44.432 -> Time: 1018
+17:38:44.432 -> Deceleration: 4
+17:38:44.432 -> 32
+17:38:45.439 -> Time: 1022
+17:38:45.439 -> Deceleration: 3
+17:38:45.493 -> 33
+17:38:46.444 -> Time: 1027
+17:38:46.497 -> Deceleration: 4
+17:38:46.497 -> 34
+17:38:47.505 -> Time: 1032
+17:38:47.505 -> Deceleration: 4
+17:38:47.505 -> 35
+17:38:48.514 -> Time: 1036
+17:38:48.561 -> Deceleration: 6
+17:38:48.561 -> 36
+17:38:49.570 -> Time: 1040
+17:38:49.570 -> Deceleration: 4
+17:38:49.624 -> 37
+17:38:50.632 -> Time: 1046
+17:38:50.632 -> Deceleration: 6
+17:38:50.632 -> 38
+17:38:51.641 -> Time: 1048
+17:38:51.688 -> Deceleration: 4
+17:38:51.688 -> 39
+17:38:52.693 -> Time: 1054
+17:38:52.747 -> Deceleration: 6
+17:38:52.747 -> 40
+17:38:53.754 -> Time: 1059
+17:38:53.801 -> Deceleration: 3
+17:38:53.801 -> 41
+17:38:54.863 -> Time: 1064
+17:38:54.863 -> Deceleration: 6
+17:38:54.863 -> 42
+17:38:55.916 -> Time: 1069
+17:38:55.916 -> Deceleration: 4
+17:38:55.916 -> 43
+17:38:56.966 -> Time: 1074
+17:38:57.020 -> Deceleration: 3
+17:38:57.020 -> 44
+17:38:58.076 -> Time: 1080
+17:38:58.076 -> Deceleration: 4
+17:38:58.076 -> 45
+17:38:59.139 -> Time: 1089
+17:38:59.139 -> Deceleration: 9
+17:38:59.186 -> 46
+17:39:00.295 -> Time: 1149
+17:39:00.295 -> Deceleration: 15
+17:39:00.295 -> 47
+17:39:01.506 -> Time: 1240
+17:39:01.560 -> Deceleration: 24
+17:39:01.560 -> 48
+17:39:02.850 -> Time: 1344
+17:39:02.850 -> Deceleration: 21
+17:39:02.897 -> 49
+17:39:04.279 -> Time: 1440
+17:39:04.279 -> Deceleration: 21
+17:39:04.326 -> 50
+17:39:05.892 -> Time: 1653
+17:39:05.939 -> Deceleration: 69
+17:39:05.939 -> 51
+17:39:07.765 -> Time: 1856
+17:39:07.765 -> Deceleration: 10
+17:39:07.811 -> 52
+17:39:09.625 -> Time: 1875
+17:39:09.679 -> Deceleration: 12
+17:39:09.679 -> 53
+17:39:11.539 -> Time: 1897
+17:39:11.539 -> Deceleration: 13
+17:39:11.593 -> 54
+17:39:13.451 -> Time: 1918
+17:39:13.451 -> Deceleration: 12
+17:39:13.505 -> 55
+17:39:15.365 -> Time: 1940
+17:39:15.418 -> Deceleration: 12
+17:39:15.418 -> 56
+17:39:17.329 -> Time: 1962
+17:39:17.375 -> Deceleration: 15
+17:39:17.375 -> 57
+17:39:19.344 -> Time: 1984
+17:39:19.344 -> Deceleration: 15
+17:39:19.344 -> 58
+17:39:21.359 -> Time: 2008
+17:39:21.359 -> Deceleration: 15
+17:39:21.359 -> 59
+17:39:23.370 -> Time: 2032
+17:39:23.370 -> Deceleration: 15
+17:39:23.417 -> 60
+17:39:25.431 -> Time: 2061
+17:39:25.431 -> Deceleration: 15
+17:39:25.485 -> 61
+17:39:27.497 -> Time: 2091
+17:39:27.544 -> Deceleration: 16
+17:39:27.544 -> 62
+17:39:29.612 -> Time: 2122
+17:39:29.660 -> Deceleration: 16
+17:39:29.660 -> 63
+17:39:31.775 -> Time: 2152
+17:39:31.775 -> Deceleration: 16
+17:39:31.830 -> 64
+17:39:33.942 -> Time: 2186
+17:39:33.989 -> Deceleration: 16
+17:39:33.989 -> 65
+17:39:36.204 -> Time: 2222
+17:39:36.204 -> Deceleration: 16
+17:39:36.204 -> 66
+17:39:38.435 -> Time: 2259
+17:39:38.435 -> Deceleration: 18
+17:39:38.474 -> 67
+17:39:40.737 -> Time: 2296
+17:39:40.737 -> Deceleration: 16
+17:39:40.791 -> 68
+17:39:43.050 -> Time: 2335
+17:39:43.104 -> Deceleration: 19
+17:39:43.104 -> 69
+17:39:45.422 -> Time: 2372
+17:39:45.422 -> Deceleration: 21
+17:39:45.468 -> 70
+17:39:47.822 -> Time: 2410
+17:39:47.870 -> Deceleration: 21
+17:39:47.870 -> 71
+17:39:50.306 -> Time: 2451
+17:39:50.306 -> Deceleration: 21
+17:39:50.306 -> 72
+17:39:52.776 -> Time: 2493
+17:39:52.776 -> Deceleration: 19
+17:39:52.823 -> 73
+17:39:55.298 -> Time: 2536
+17:39:55.298 -> Deceleration: 22
+17:39:55.345 -> 74
+17:39:57.916 -> Time: 2587
+17:39:57.916 -> Deceleration: 24
+17:39:57.916 -> 75
+17:40:00.537 -> Time: 2642
+17:40:00.537 -> Deceleration: 22
+17:40:00.537 -> 76
+17:40:03.235 -> Time: 2697
+17:40:03.235 -> Deceleration: 28
+17:40:03.235 -> 77
+17:40:05.979 -> Time: 2762
+17:40:05.979 -> Deceleration: 28
+17:40:06.026 -> 78
+17:40:08.800 -> Time: 2833
+17:40:08.800 -> Deceleration: 30
+17:40:08.847 -> 79
+17:40:11.725 -> Time: 2905
+17:40:11.725 -> Deceleration: 33
+17:40:11.725 -> 80
+17:40:14.693 -> Time: 2983
+17:40:14.693 -> Deceleration: 36
+17:40:14.693 -> 81
+17:40:17.730 -> Time: 3069
+17:40:17.730 -> Deceleration: 36
+17:40:17.769 -> 82
+17:40:20.896 -> Time: 3163
+17:40:20.896 -> Deceleration: 39
+17:40:20.942 -> 83
+17:40:24.127 -> Time: 3261
+17:40:24.173 -> Deceleration: 45
+17:40:24.173 -> 84
+17:40:27.499 -> Time: 3366
+17:40:27.499 -> Deceleration: 46
+17:40:27.554 -> 85
+17:40:30.967 -> Time: 3477
+17:40:30.967 -> Deceleration: 51
+17:40:31.015 -> 86
+17:40:34.556 -> Time: 3594
+17:40:34.556 -> Deceleration: 52
+17:40:34.610 -> 87
+17:40:38.283 -> Time: 3721
+17:40:38.283 -> Deceleration: 54
+17:40:38.283 -> 88
+17:40:42.131 -> Time: 3853
+17:40:42.131 -> Deceleration: 58
+17:40:42.131 -> 89
+17:40:46.097 -> Time: 4003
+17:40:46.097 -> Deceleration: 67
+17:40:46.144 -> 90
+17:40:50.278 -> Time: 4174
+17:40:50.278 -> Deceleration: 72
+17:40:50.278 -> 91
+17:40:54.611 -> Time: 4371
+17:40:54.611 -> Deceleration: 87
+17:40:54.665 -> 92
+17:40:59.201 -> Time: 4610
+17:40:59.201 -> Deceleration: 100
+17:40:59.248 -> 93
+17:41:04.075 -> Time: 4910
+17:41:04.121 -> Deceleration: 123
+17:41:04.121 -> 94
