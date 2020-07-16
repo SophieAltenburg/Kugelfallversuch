@@ -191,10 +191,12 @@ void loop() {
             //release the marble
             //expHallFlip = lastHallFlip + expTurnTime;
             long t = expHallFlip - fallTime;
-            Serial.println(t);            
-            while (t < millis()){
-                t = t + lastTurnTime;
-                //t = (t < millis()) ? (t + expTurnTime) : (t);
+            Serial.println(t);  
+            if (t < millis()) {
+              t = t + expTurnTime;          
+            }
+            if (t < millis()) {
+              t = t + lastTurnTime;
             }
             Serial.print("Waiting for ");
             Serial.println(t);          
