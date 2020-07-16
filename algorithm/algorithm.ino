@@ -193,7 +193,7 @@ void loop() {
             long t = expHallFlip - fallTime;
             Serial.println(t);            
             while (t < millis()){
-                t = t + expTurnTime;
+                t = t + lastTurnTime;
                 //t = (t < millis()) ? (t + expTurnTime) : (t);
             }
             Serial.print("Waiting for ");
@@ -201,6 +201,7 @@ void loop() {
             waitButListenToHallSensor(t);
             //we never get the hall sensor between hallsensor and throw-time
             openMechanism(servo);
+            
             if (!validRotationMeasureBefore(millis() + expTurnTime / 2)) {
               Serial.println("no valid Measurement in case 1 -> velocityModeOrWait");
               int newVelo = velocityModeOrWait(); //wait until measurements are stable again
