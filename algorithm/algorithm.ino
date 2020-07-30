@@ -23,7 +23,7 @@ void setup() {
 }
 
 bool isValid(int thisTime, int lastTime) {
-    Serial.print("Entering isValid. Diff: ");
+  Serial.print("Entering isValid. Diff: ");
   int diff = thisTime - lastTime;
   Serial.println(diff);
   bool ret;
@@ -36,7 +36,7 @@ bool isValid(int thisTime, int lastTime) {
        } else {
          ret = false;
       }
-  }
+  } 
   
   // between 900 and 2200 ms, use a linear function to get accepted deceleration
   if (lastTime > 900 && lastTime <= 2200) {
