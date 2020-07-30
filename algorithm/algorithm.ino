@@ -30,7 +30,7 @@ bool isValid(int thisTime, int lastTime) {
   int threshold;
   
   // below 900 ms, accept differences of up to 20 ms
-  if (thisTime <= 900) {
+  if (lastTime <= 900) {
       if (diff <= 20) {
          ret = true;
        } else {
@@ -39,8 +39,8 @@ bool isValid(int thisTime, int lastTime) {
   } 
   
   // between 900 and 2200 ms, use a linear function to get accepted deceleration
-  if (thisTime > 900 && thisTime <= 2200) {
-      threshold = (thisTime-900)/20 + 20;
+  if (lastTime > 900 && lastTime <= 2200) {
+      threshold = (lastTime-900)/20 + 20;
       if (diff <= threshold) {
          ret = true;
       } else {
@@ -49,8 +49,8 @@ bool isValid(int thisTime, int lastTime) {
   }
   
   // between 2200 and 2500 ms, use a different linear function to get accepted deceleration
-  if (thisTime > 2200 && thisTime <= 2500) {
-      threshold = (thisTime-2200)/100 + 85;
+  if (lastTime > 2200 && lastTime <= 2500) {
+      threshold = (lastTime-2200)/100 + 85;
       if (diff <= threshold) {
          ret = true;
       } else {
@@ -59,7 +59,7 @@ bool isValid(int thisTime, int lastTime) {
   }
   
   // accept anything if the turn time is above 2500 ms
-  if (thisTime > 2500) {
+  if (lastTime > 2500) {
       ret = true;
   }
   
@@ -183,6 +183,7 @@ bool validRotationMeasureBefore(long deadline) {
   struct rotationAndHallMeasure m = measureRotationAndHallUntil(2, hallState, deadline);
   if (m.hall.state == -2) {
     Serial.println("Plate got abnormally decelerated, measurement took time past the deadline.");
+    digitalWrite(BlackboxLEDPin, 1);
     return false;
   }
   //now update all global variables
