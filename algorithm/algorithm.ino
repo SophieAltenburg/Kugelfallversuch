@@ -50,7 +50,7 @@ bool isValid(int thisTime, int lastTime) {
   
   // between 2200 and 2500 ms, use a different linear function to get accepted deceleration
   if (lastTime > 2200 && lastTime <= 2500) {
-      threshold = (lastTime-2200)/100 + 85;
+      threshold = (lastTime-2200)/10 + 85;
       if (diff <= threshold) {
          ret = true;
       } else {
