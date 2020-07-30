@@ -4,8 +4,8 @@
 #include <WProgram.h>
 #endif
 
-#ifndef _KUGELFALL_H
-#define _KUGELFALL_H
+#ifndef _KUGELFALL_INTERRUPT_H
+#define _KUGELFALL_INTERRUPT_H
 
 #ifdef __cplusplus
 extern "C" {
@@ -26,6 +26,8 @@ int Button2Pin = 11;
 int LED1Pin = 12;
 int LED2Pin = 13;
 
+Servo servo;
+
 volatile long lastPhotoTimestamp = 0;
 volatile int lastTurnTime = 0;
 volatile int currentTurnTime = 0;
@@ -40,7 +42,8 @@ bool isValid(int thisTime, int lastTime){
 
     // never accept negative difference above measurement uncertainty
     if (diff < -10) {
-        Serial.println("Invalid deceleration time. Measured negative deceleration above measurement uncertainty");
+        Serial.println("Invalid deceleration time. Measured negative \
+                        deceleration above measurement uncertainty");
         return(false);
     }
 
@@ -56,7 +59,8 @@ bool isValid(int thisTime, int lastTime){
         }
     } 
 
-    // between 900 and 2200 ms, use a linear function to get accepted deceleration
+    // between 900 and 2200 ms, use a linear function to determine acceptable
+    // deceleration
     if (lastTime > 900 && lastTime <= 2200) {
         threshold = (lastTime-900)/20 + 20;
         if (diff <= threshold) {
@@ -70,7 +74,8 @@ bool isValid(int thisTime, int lastTime){
         }
     }
 
-    // between 2200 and 2500 ms, use a different linear function to get accepted deceleration
+    // between 2200 and 2500 ms, use a different linear function to determine
+    // acceptable deceleration
     if (lastTime > 2200 && lastTime <= 2500) {
         threshold = (lastTime-2200)/10 + 85;
         if (diff <= threshold) {
@@ -90,11 +95,11 @@ bool isValid(int thisTime, int lastTime){
     }
 }
 
-void openMechanism(Servo servo){
+void openMechanism(){
     servo.write(60);
 }
 
-void closeMechanism(Servo servo){
+void closeMechanism(){
     servo.write(35);
 }
 
@@ -157,6 +162,9 @@ void setupHardware(){
     pinMode(LED1Pin, OUTPUT);
     pinMode(LED2Pin, OUTPUT);
     pinMode(BlackboxLEDPin, OUTPUT);
+
+    servo.attach(ServoPin);
+    closeMechanism();
 
     attachInterrupt(PhotoSensorInterruptPin, PhotoSensorISR, RISING);
     attachInterrupt(HallSensorInterruptPin, HallSensorISR, FALLING);

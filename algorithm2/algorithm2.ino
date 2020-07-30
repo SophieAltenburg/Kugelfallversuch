@@ -1,8 +1,6 @@
 #include "kugelfall_interrupt.h"
 #include <Servo.h>
 
-Servo servo;
-
 const int fallTime = 462;
 const int throwMarble[3][9] = {
     {1, 0, 1,  0,  1, -1, -1, -1, -1}, 	// fast velocity = 0
@@ -12,8 +10,6 @@ const int throwMarble[3][9] = {
 
 void setup() {
     setupHardware();
-    servo.attach(ServoPin);
-    closeMechanism(servo);
 }
 
 void loop() {
@@ -45,10 +41,11 @@ void loop() {
                     Serial.println(t);          
                     delay(t);
 
-                    openMechanism(servo);
-                    // wait either half a turn or 500 ms, whichever comes first
+                    openMechanism();
+                    // wait either half a turn or 500 ms, whichever comes first,
+                    // to close the servo mechanism
                     delay(min(currentTurnTime/2, 500));
-                    closeMechanism(servo);
+                    closeMechanism();
                     break;
                 }
                 case 0: {
