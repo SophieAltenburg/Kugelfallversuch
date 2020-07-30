@@ -23,14 +23,68 @@ void setup() {
 }
 
 bool isValid(int thisTime, int lastTime) {
-  int min = lastTime * 0.9;
-  int max = lastTime * 1.1;
-  if (min < thisTime && thisTime < max) {
-    return true;
+    Serial.print("Entering isValid. Diff: ");
+  int diff = thisTime - lastTime;
+  Serial.println(diff);
+  bool ret;
+  int threshold;
+  
+  // below 900 ms, accept differences of up to 20 ms
+  if (thisTime <= 900) {
+      if (diff <= 20) {
+         ret = true;
+       } else {
+         ret = false;
+      }
   }
-  Serial.println("The expTurnTime is not valid compared to lastTurnTime, but we'll ignore it.");
-  //return false;
-  return true;
+  
+  // between 900 and 2200 ms, use a linear function to get accepted deceleration
+  if (thisTime > 900 && thisTime <= 2200) {
+      threshold = (thisTime-900)/20 + 20;
+      if (diff <= threshold) {
+         ret = true;
+      } else {
+         ret = false;
+      }
+  }
+  
+  // between 2200 and 2500 ms, use a different linear function to get accepted deceleration
+  if (thisTime > 2200 && thisTime <= 2500) {
+      threshold = (thisTime-2200)/100 + 85;
+      if (diff <= threshold) {
+         ret = true;
+      } else {
+         ret = false;
+      }
+  }
+  
+  // accept anything if the turn time is above 2500 ms
+  if (thisTime > 2500) {
+      ret = true;
+  }
+  
+  // never accept negative difference above measurement uncertainty
+  if (diff < -10) {
+      ret = false;
+  }
+  
+  // one of either values not initialized, accept it
+  if (thisTime == 0 || lastTime == 0) {
+      ret = true;
+  }
+  
+  if (ret == false) {
+      Serial.print("thisTime: ");
+      Serial.println(thisTime);
+      Serial.print("lastTime: ");
+      Serial.println(lastTime);
+   
+  }
+      Serial.print("Thresholds: ");
+      Serial.println(threshold);
+  
+  digitalWrite(BlackboxLEDPin, !ret);
+  return(ret);
 }
 
 int velocityModeOrWait() {

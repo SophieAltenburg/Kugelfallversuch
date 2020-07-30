@@ -359,7 +359,7 @@ void openMechanism(Servo servo){
     * -------
     * nothing.
     */
-    servo.write(50);
+    servo.write(60);
 }
 
 void closeMechanism(Servo servo){
