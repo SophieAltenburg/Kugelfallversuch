@@ -9,10 +9,25 @@ const int throwMarble[3][10] = {
 };
 
 void setup() {
+    /*
+    Setup the hardware when booting the Arduino.
+    */
+
     setupHardware();
 }
 
 void loop() {
+    /*
+    Infinite loop will be run after booting the Arduino. Use polling on the
+    trigger pin and begin a pattern when the button gets pressed.
+    
+    By checking the isValid flag, unexpected changes in deceleration or 
+    acceleration can be detected. In this case, wait until the deceleration is
+    valid again, but at least one full rotation.
+
+    In case the velocity mode changes during a pattern, the old pattern will be
+    continued nonetheless, but a warning will be written to the serial port.
+    */
     if (isTriggered()) {
         Serial.println("Trigger detected.");
         bool patternDone = false;

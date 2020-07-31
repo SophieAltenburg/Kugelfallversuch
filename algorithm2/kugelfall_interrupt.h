@@ -37,7 +37,32 @@ volatile int velocityMode = 0;
 volatile bool isValidFlag = 0;
 
 bool isValid(int thisTime, int lastTime){
-    // Serial.print in an ISR or a function called from an ISR is illegal!
+    /*
+    Checks if two turn times are valid by determining the deceleration between
+    them and comparing them to the acceptable deceleration threshold.
+
+    Decelerations below -20 ms (i.e. accelerations above measurement
+    uncertainty) will always be rejected. If the last time was below 900 ms,
+    then decelerations of up to 20 ms will be accepted. Betwee 900 and 2200, a
+    linear function will be used for the threshold. Between 2200 and 2500 ms, a
+    different linear function (with twice the gradient) will be used. Above 2500
+    ms, the disc becomes so slow that decelerations through outside influence
+    can no longer be detected, so all will be accepted.
+
+    Arguments
+    ---------
+    thisTime : int
+        The time for the last full rotation.
+    lastTime : int
+        The time for the rotation before that.
+
+    Returns
+    -------
+    return : bool
+        True if the deceleration is acceptable, false otherwise.
+    */
+
+    // serial prints in an ISR or a function called from an ISR is illegal!
 
     int diff = thisTime - lastTime;
     int threshold;
@@ -85,34 +110,86 @@ bool isValid(int thisTime, int lastTime){
 }
 
 void openMechanism(){
+    /*
+    Sets the servo drive to 60° to open the mechanism to release a marble.
+    */
+
     servo.write(60);
 }
 
 void closeMechanism(){
+    /*
+    Sets the servo drive to 35° to close the mechanism after throwing a marble.
+    */
+
     servo.write(35);
 }
 
 bool isTriggered(){
+    /*
+    Checks if the trigger button on the handheld control is being pressed.
+
+    Returns
+    -------
+    return : bool
+        True if the button is being pressed, false otherwise.
+    */
+
     return(digitalRead(TriggerPin));
 }
 
 void awaitTrigger(){
+    /*
+    Waits until the trigger button on the handheld control gets pressed, then 
+    returns.
+    */
+
     while (!isTriggered());
 }
 
 void awaitHallSensorPosition(){
+    /*
+    Wait until the next falling edge on the Hall sensor pin, then returns.
+    */
+
     while(digitalRead(HallSensorPin) == 0);
     while(digitalRead(HallSensorPin) == 1);
     return;
 }
 
 void HallSensorISR(){
+    /*
+    Interrupt service routine for the Hall sensor pin.
+
+    This function updates two variables -- lastHallFlip and expHallFlip. The 
+    last Hall flip is the timestamp when the ISR gets called, the expected
+    Hall flip is the estimated timestamp when the next falling edge will be
+    detected.
+    */
+
+    // serial prints in an ISR or a function called from an ISR is illegal!
+
     lastHallFlip = millis();
     
     expHallFlip = lastHallFlip + currentTurnTime;
 }
 
 void PhotoSensorISR(){
+    /*
+    Iterrupt service routine for the photo sensor pin.
+
+    This function uses the photo sensor to determine the rotation time by 
+    memorizing the timestamp this function has been called the last time and
+    calculating the difference between these two. Depending on the rotation time
+    the velocity mode (0 - fast, 1 - medium, 2 - slow) will be set and the LEDs
+    will be illuminated accordingly. 
+
+    This ISR also calls the isValid function to determine if the measured time 
+    is acceptable and illuminates the LED on the black box if it's not.
+    */
+
+    // serial prints in an ISR or a function called from an ISR is illegal!
+    
     lastTurnTime = currentTurnTime;
 
     currentTurnTime = 6*(millis() - lastPhotoTimestamp);
@@ -143,6 +220,12 @@ void PhotoSensorISR(){
 }
 
 void setupHardware(){
+    /*
+    Initializes the hardware by initializing the serial port, declaring the all
+    the pins, initializing the servo drive and attaching the interrupt routines
+    HallSensorISR and PhotoSensorISR to the respective pins.
+    */
+
     Serial.begin(9600);
 
     pinMode(PhotoSensorPin, INPUT);
