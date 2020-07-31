@@ -1,11 +1,11 @@
 #include "kugelfall_interrupt.h"
 #include <Servo.h>
 
-const int fallTime = 462;
-const int throwMarble[3][9] = {
-    {1, 0, 1,  0,  1, -1, -1, -1, -1}, 	// fast velocity = 0
-    {1, 0, 1,  1,  0,  0,  1,  1,  1}, 	// medium velocity = 1
-    {1, 1, 1, -1, -1, -1, -1, -1, -1} 	// slow velocity = 2
+const int fallTime = 470;
+const int throwMarble[3][10] = {
+    {1, 0, 1,  0,  1, -1, -1, -1, -1, -1}, 	// fast velocity = 0
+    {1, 0, 1,  1,  0,  0,  1,  1,  1, -1}, 	// medium velocity = 1
+    {1, 1, 1, -1, -1, -1, -1, -1, -1, -1} 	// slow velocity = 2
 };
 
 void setup() {
@@ -13,27 +13,61 @@ void setup() {
 }
 
 void loop() {
+    /*
+    // println Debugging
+    Serial.print("currentTurnTime ");
+    Serial.println(currentTurnTime);
+    Serial.print("lastTurnTime ");
+    Serial.println(lastTurnTime);
+    Serial.print("Diff ");
+    Serial.println(currentTurnTime-lastTurnTime);
+    Serial.print("isValid ");
+    Serial.println(isValid(currentTurnTime, lastTurnTime));
+    Serial.print("Threshold ");
+    if (lastTurnTime <= 90){
+        Serial.println(20);
+    }
+    if (lastTurnTime > 900 && lastTurnTime <= 2200) {
+        Serial.println((lastTurnTime-900)/20 + 20);
+    }
+    if (lastTurnTime > 2200 && lastTurnTime <= 2500) {
+        Serial.println((lastTurnTime-2200)/10 + 85);
+    }
+    if (lastTurnTime > 2500){
+        Serial.println("any");
+    }
+    Serial.println("");
+    
+    delay(1000);
+    */
 
     if (isTriggered()) {
         Serial.println("Trigger detected.");
         bool patternDone = false;
-        
-        expHallFlip = lastHallFlip + currentTurnTime;
-        
-        for (int turn = 0; turn < 9 && patternDone == false; turn++)  {
+        int velocityModeAtBegin = velocityMode;
 
-            if (!isValidFlag){
-                // invalid deceleration detected --> wait until valid again
-                while (!isValidFlag);
-                awaitHallSensorPosition();
+        for (int turn = 0; turn <= 9 && patternDone == false; turn++)  {
+
+            if (velocityMode != velocityModeAtBegin){
+                Serial.print("Warning: Mode changed during pattern. Old pattern ");
+                Serial.print("be continued, but may not be conforming to new ");
+                Serial.println("mode anymore.");
             }
 
-            switch (throwMarble[velocityMode][turn]) {
+            while (!isValidFlag){
+                // invalid acceleration or deceleration detected --> wait until
+                // valid again, but at least one full rotation
+                Serial.print("Invalid acceleration or deceleration detected.");
+                Serial.println("Waiting until rotations are predictable again.");
+                delay(currentTurnTime);
+            }
+
+            switch (throwMarble[velocityModeAtBegin][turn]) {
                 case 1: {
                     // throw a marble this turn
-                    long t = expHallFlip - fallTime;
+                    int t = expHallFlip - millis() - fallTime;
                     
-                    if (t < millis()) {
+                    if (t < 0) {
                         t = t + currentTurnTime;          
                     }
 
@@ -49,13 +83,14 @@ void loop() {
                     break;
                 }
                 case 0: {
-                    awaitHallSensorPosition();
+                    delay(currentTurnTime);
                     break;
                 }
 
                 case -1: {
                     Serial.println("Pattern done.");
                     patternDone = true;
+                    break;
                 }
             } // end switch - decided marble release
         } // end for - completed marble pattern

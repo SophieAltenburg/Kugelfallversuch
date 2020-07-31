@@ -13,18 +13,18 @@ extern "C" {
 
 #include <Servo.h>
 
-int PhotoSensorInterruptPin = 0;
-int HallSensorInterruptPin = 1;
-int PhotoSensorPin = 2;
-int HallSensorPin = 3;
-int TriggerPin = 4;
-int SwitchPin = 5;
-int BlackboxLEDPin = 7;
-int ServoPin = 9;
-int Button1Pin = 10;
-int Button2Pin = 11;
-int LED1Pin = 12;
-int LED2Pin = 13;
+const int PhotoSensorInterruptPin = 0;
+const int HallSensorInterruptPin = 1;
+const int PhotoSensorPin = 2;
+const int HallSensorPin = 3;
+const int TriggerPin = 4;
+const int SwitchPin = 5;
+const int BlackboxLEDPin = 7;
+const int ServoPin = 9;
+const int Button1Pin = 10;
+const int Button2Pin = 11;
+const int LED1Pin = 12;
+const int LED2Pin = 13;
 
 Servo servo;
 
@@ -34,16 +34,16 @@ volatile int currentTurnTime = 0;
 volatile long lastHallFlip = 0;
 volatile long expHallFlip = 0;
 volatile int velocityMode = 0;
-volatile bool isValidFlag = false;
+volatile bool isValidFlag = 0;
 
 bool isValid(int thisTime, int lastTime){
+    // Serial.print in an ISR or a function called from an ISR is illegal!
+
     int diff = thisTime - lastTime;
     int threshold;
 
     // never accept negative difference above measurement uncertainty
-    if (diff < -10) {
-        Serial.println("Invalid deceleration time. Measured negative \
-                        deceleration above measurement uncertainty");
+    if (diff < -20) {
         return(false);
     }
 
@@ -52,9 +52,6 @@ bool isValid(int thisTime, int lastTime){
         if (diff <= 20) {
             return(true);
         } else {
-            Serial.print("Invalid deceleration time. Measured difference ");
-            Serial.print(diff);
-            Serial.println(" but threshold was 20");
             return(false);
         }
     } 
@@ -66,10 +63,6 @@ bool isValid(int thisTime, int lastTime){
         if (diff <= threshold) {
             return(true);
         } else {
-            Serial.print("Invalid deceleration time. Measured difference ");
-            Serial.print(diff);
-            Serial.print(" but threshold was ");
-            Serial.println(threshold);
             return(false);
         }
     }
@@ -81,10 +74,6 @@ bool isValid(int thisTime, int lastTime){
         if (diff <= threshold) {
             return(true);
         } else {
-            Serial.print("Invalid deceleration time. Measured difference ");
-            Serial.print(diff);
-            Serial.print(" but threshold was ");
-            Serial.println(threshold);			
             return(false);
         }
     }
@@ -128,25 +117,29 @@ void PhotoSensorISR(){
 
     currentTurnTime = 6*(millis() - lastPhotoTimestamp);
 
+    lastPhotoTimestamp = millis();
+
     if (currentTurnTime < 1000) {
         // fast
         velocityMode = 0;
         digitalWrite(LED1Pin, 1);
         digitalWrite(LED2Pin, 0);
-    } else if (currentTurnTime > 3000) {
-        // slow
-        velocityMode = 2;
-        digitalWrite(LED1Pin, 0);
-        digitalWrite(LED2Pin, 1);
-    } else {
+    }
+    if (currentTurnTime <= 3000 && currentTurnTime >= 1000) {
         // medium
         velocityMode = 1;
         digitalWrite(LED1Pin, 1);
         digitalWrite(LED2Pin, 1);
     }
+    if (currentTurnTime > 3000) {
+        // slow
+        velocityMode = 2;
+        digitalWrite(LED1Pin, 0);
+        digitalWrite(LED2Pin, 1);
+    }
 
     isValidFlag = isValid(currentTurnTime, lastTurnTime);
-    digitalWrite(BlackboxLEDPin, isValidFlag);
+    digitalWrite(BlackboxLEDPin, !isValidFlag);
 }
 
 void setupHardware(){
