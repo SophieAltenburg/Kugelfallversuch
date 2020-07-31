@@ -13,34 +13,6 @@ void setup() {
 }
 
 void loop() {
-    /*
-    // println Debugging
-    Serial.print("currentTurnTime ");
-    Serial.println(currentTurnTime);
-    Serial.print("lastTurnTime ");
-    Serial.println(lastTurnTime);
-    Serial.print("Diff ");
-    Serial.println(currentTurnTime-lastTurnTime);
-    Serial.print("isValid ");
-    Serial.println(isValid(currentTurnTime, lastTurnTime));
-    Serial.print("Threshold ");
-    if (lastTurnTime <= 90){
-        Serial.println(20);
-    }
-    if (lastTurnTime > 900 && lastTurnTime <= 2200) {
-        Serial.println((lastTurnTime-900)/20 + 20);
-    }
-    if (lastTurnTime > 2200 && lastTurnTime <= 2500) {
-        Serial.println((lastTurnTime-2200)/10 + 85);
-    }
-    if (lastTurnTime > 2500){
-        Serial.println("any");
-    }
-    Serial.println("");
-    
-    delay(1000);
-    */
-
     if (isTriggered()) {
         Serial.println("Trigger detected.");
         bool patternDone = false;
