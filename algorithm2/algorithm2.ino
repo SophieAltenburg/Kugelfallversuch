@@ -1,7 +1,7 @@
 #include "kugelfall_interrupt.h"
 #include <Servo.h>
 
-const int fallTime = 470;
+const int fallTime = 495;
 const int throwMarble[3][10] = {
     {1, 0, 1,  0,  1, -1, -1, -1, -1, -1}, 	// fast velocity = 0
     {1, 0, 1,  1,  0,  0,  1,  1,  1, -1}, 	// medium velocity = 1
