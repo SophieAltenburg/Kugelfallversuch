@@ -44,7 +44,7 @@ void loop() {
             while (!isValidFlag){
                 // invalid acceleration or deceleration detected --> wait until
                 // valid again, but at least one full rotation
-                Serial.print("Invalid acceleration or deceleration detected.");
+                Serial.print("Invalid acceleration or deceleration detected. ");
                 Serial.println("Waiting until rotations are predictable again.");
                 delay(currentTurnTime);
             }
@@ -59,16 +59,10 @@ void loop() {
                     }
 
                     Serial.print("Waiting for ");
-                    Serial.println(t);          
-                    while(millis() < t){
-                      if !isValidFlag {
-                      break;
-                      }
-                    };
-                      }
+                    Serial.println(t);    
                     
-                    //delay(t);
-
+                    delay(t);
+                    
                     openMechanism();
                     // wait either half a turn or 500 ms, whichever comes first,
                     // to close the servo mechanism
